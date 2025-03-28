@@ -1,0 +1,7 @@
+#video_inicial_multiponto {
+    width: 500px;
+    height: auto;
+    /* float: left; */
+    position: relative;
+    opacity: 100%;
+}
