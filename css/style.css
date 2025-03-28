@@ -1,7 +1,21 @@
 #video_inicial_multiponto {
-    width: 500px;
+    max-width: 300px;
     height: auto;
     /* float: left; */
-    position: relative;
-    opacity: 100%;
+    /* position: relative; */
+    opacity: 20%;
 }
+
+
+
+.blink {
+    animation: blinker 3s linear infinite;
+    color: black;
+    font-family: sans-serif;
+  }
+  
+  @keyframes blinker {
+    100% {
+      opacity: 40%;
+    }
+  }
