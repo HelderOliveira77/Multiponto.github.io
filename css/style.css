@@ -1,6 +1,6 @@
 #video_inicial_multiponto {
-    max-width: 300px;
-    height: auto;
+    /* max-width: 300px;
+    height: auto; */
     /* float: left; */
     /* position: relative; */
     opacity: 20%;
@@ -9,13 +9,13 @@
 
 
 .blink {
-    animation: blinker 3s linear infinite;
+    animation: blinker 10s linear infinite;
     color: black;
     font-family: sans-serif;
   }
   
   @keyframes blinker {
     100% {
-      opacity: 40%;
+      opacity: 5%;
     }
   }
