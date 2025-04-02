@@ -19,3 +19,14 @@
       opacity: 5%;
     }
   }
+
+
+  .texto_rodape {
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    text-align: left;
+    letter-spacing: 0.5px;
+    line-height: 24px;
+    color: white;
+    opacity: 60%;
+  }
