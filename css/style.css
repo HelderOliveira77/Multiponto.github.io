@@ -23,10 +23,17 @@
 
   .texto_rodape {
     font-family: Arial, sans-serif;
-    font-size: 15px;
+    font-size: 12px;
     text-align: left;
     letter-spacing: 0.3px;
-    line-height: 24px;
+    line-height: 18px;
     color: black;
     /* opacity: 60%; */
   }
+
+
+  .list-group-item_home {
+font-size: 16px;
+color: black;
+  }
+
