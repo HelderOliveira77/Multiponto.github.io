@@ -7,7 +7,6 @@
 }
 
 
-
 .blink {
     animation: blinker 10s linear infinite;
     color: black;
@@ -45,6 +44,22 @@ color:black;
   }
   
   .carousel-inner .active {
-    transition: opacity 1s ease-in-out;
+    transition: opacity 4s ease-in-out;
     opacity: 1;
+  }
+
+  .botao_orçamento {
+    background-color:black;
+    color: white;
+    align-content: center;
+    align-items: center;
+    border-radius: 10px;
+    height: 33px;
+    width: 170px;
+  }
+
+
+  .sem_link {
+text-decoration: none;
+color: black;
   }
