@@ -200,3 +200,41 @@ footer li:hover {
   color: hsl(24, 83%, 65%);
   transition: 0.2s;
 }
+
+footer i:hover {
+  color: hsl(24, 83%, 65%);
+  transition: 0.2s;
+}
+
+
+
+
+
+#nav_object {
+  position: relative;
+}
+.nav-link:hover {
+  /* text-decoration: underline; */
+  /* border-bottom: 2px solid  hsl(18, 100%, 62%); */
+}
+#nav_object::after {
+  content: '';
+  opacity: 0;
+  transition: all 0.2s;
+  height: 2px;
+  width: 100%;
+  background-color: hsl(18, 100%, 62%);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+#nav_object:hover::after {
+  opacity: 1;
+}
+.nav-item a {
+  position: relative;
+}
+
+.dropdown-toggle {
+    color: white !important;
+    }
