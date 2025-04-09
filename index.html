@@ -24,7 +24,7 @@
   <!-- ############################# -->
   <!-- CABEÇALHOS -->
   <!-- MOBILE -->
-  <!-- <div class="container-fluid d-sm-block d-md-none">
+  <div class="container-fluid d-sm-block d-md-none">
     <div class="row" style="justify-content: center;">
       <div class="logo_Centrado_Multi" style="margin-top: 20px;">
         <a href="index.html" target="_blank">
@@ -58,141 +58,14 @@
         </li>
       </ul>
     </div>
-  </div> -->
+  </div>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menu-fixo" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
 
 
 <!-- NOVA VERSAO -->
-<div class="container-fluid d-sm-block d-md-none">
-  
-    <!-- NAVIGATION BAR START -->
-    <nav class="navbar navbar-expand-lg navbar-light py-3 sticky-top" id="navbar-color">
-      <div class="container" style="display: flex; justify-content: center;">
-        <a href="index.html">
-          <img src="wp-content/logo multiponto_pequeno.png" width="auto" height="34"/>
-        </a>
-      </div>
-<div style="display: flex; justify-content: center;">
-        <!-- TOGGLE MENU START -->
-        <button
-          type="button"
-          class="navbar-toggler"
-          data-bs-toggle="collapse"
-          data-bs-target="#navmenu"
-        >
-          <span class="navbar-toggler-icon">
-        </button>
-        <!-- TOGGLE MENU CLOSE -->
-</div>
-<div style="display: flex; justify-content: center;" >
-        <!-- TOGGLE MENU START -->
-      <div class="collapse navbar-collapse" id="navmenu">
-        <ul class="navbar-nav ms-auto">
-        <!-- <li class="nav-item"><a href="/Bootstrap-/index.html" class="nav-link" id="nav_object">Home</a></li>
-        <li class="nav-item"><a href="/Bootstrap-/about.html" class="nav-link" id="nav_object">About</a></li> -->
-        <li class="nav-item dropdown" id="dropdown">
-          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"  aria-expanded="false" id=""
-          style="font-size: 14px; line-height: 8px; letter-spacing: 1px; color:#A4A4A4; text-decoration: none; vertical-align: top; border: 0px; text-transform: uppercase;  ">
-          Sobre nós
-          </a>
-          <ul class="dropdown-menu">
-          <!-- <li><a class="dropdown-item" href="#">Action</a></li>
-          <li><a class="dropdown-item" href="#">Another action</a></li> -->
-          <!-- <li><hr class="dropdown-divider"></li> -->
-          <li><a class="dropdown-item" href=" "
-            style="font-size: 12px; line-height: 8px; letter-spacing: 1px; color:#A4A4A4; text-decoration: none; vertical-align: top; border: 0px; text-transform: uppercase;  ">
-                A nossa história</a></li>
-          <li><a class="dropdown-item  " href=" "
-            style="font-size: 12px; line-height: 8px; letter-spacing: 1px; color:#A4A4A4; text-decoration: none; vertical-align: top; border: 0px; text-transform: uppercase;  ">
-            Organização</a></li>
-          <li><a class="dropdown-item " href=" "
-            style="font-size: 12px; line-height: 8px; letter-spacing: 1px; color:#A4A4A4; text-decoration: none; vertical-align: top; border: 0px; text-transform: uppercase;  ">
-            Política de gestão</a></li>
-          <li><a class="dropdown-item " href=""
-            style="font-size: 12px; line-height: 8px; letter-spacing: 1px; color:#A4A4A4; text-decoration: none; vertical-align: top; border: 0px; text-transform: uppercase;  ">
-            Compromisso Cadeia de Custóias (COC)</a></li>
-          <li><a class="dropdown-item  " href=""
-            style="font-size: 12px; line-height: 8px; letter-spacing: 1px; color:#A4A4A4; text-decoration: none; vertical-align: top; border: 0px; text-transform: uppercase;  ">
-            Certificação</a></li>
-          </ul>
-        </li>
-        <li class="nav-item"><a href=" " class="nav-link" id="nav_object">Contactos</a></li>
 
-        <script>
-          // Get the Services dropdown link element
-          const servicesDropdown = document.getElementById('servicesDropdown');
-        
-          // Redirect to the services page when the dropdown link is clicked
-          servicesDropdown.addEventListener('click', function(event) {
-            event.preventDefault(); // Prevent default link behavior
-            window.location.href = this.getAttribute('href');
-          });
-        
-          // Add the hover effect on desktop devices
-          if (window.matchMedia('(min-width: 576px)').matches) {
-            // When the mouse enters the dropdown link, show the dropdown menu
-            servicesDropdown.addEventListener('mouseenter', function() {
-              this.setAttribute('aria-expanded', 'true');
-              this.nextElementSibling.classList.add('show');
-            });
-        
-            // When the mouse leaves the dropdown link or the dropdown menu, hide the dropdown menu
-            servicesDropdown.addEventListener('mouseleave', function() {
-              this.setAttribute('aria-expanded', 'false');
-              this.nextElementSibling.classList.remove('show');
-            });
-          }
-        </script>
-        <!-- TOGGLE MENU CLOSE -->
-
-        <!-- LOGIN/SIGNUP MODAL SECTION START -->
-    
-        <!-- <button 
-          type="button" 
-          class="btn btn-primary" 
-          data-bs-toggle="modal" 
-          data-bs-target="#loginmodal"
-        >
-          Login/Signup
-        </button>
-        <div id="loginmodal" class="modal fade">
-          <div class="modal-dialog modal-dialog-centered">
-            <div class="modal-content">
-              <div class="modal-body">
-                <button
-                 
-                  type="button" 
-                  class="btn-close btn-close-white" 
-                  data-bs-dismiss="modal" 
-                ></button>
-                <div class="myform bg-dark">
-                  <h1 class="text-center" id="modal-styling">Login Form</h1>
-                  <form action="#">
-                    <div class="mb-3 mt-3">
-                      <label for="email">Email Address</label>
-                      <input type="email" class="form-control">
-                    </div>
-                    <div class="mb-3 mt-3">
-                      <label for="password">Password</label>
-                      <input type="passeord" class="form-control">
-                    </div>
-                    <button type="button" class="btn btn-light mt-3">LOGIN</button>
-                    <p id="modal-styling">Don't have an account? <a href="#" id="modal-styling">Signup</a> </p>
-                  </form>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div> -->
-    <!-- LOGIN/SIGNUP MODAL SECTION CLOSE -->
-        </ul>
-      </div>
-      <!-- TOGGLE MENU CLOSE -->
-      </div>
-    
-    </nav>
-    <!-- NAVIGATION BAR CLOSE -->
-
-</div>
 
 
 
