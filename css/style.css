@@ -154,8 +154,16 @@ nav li a:hover{
   display: none;
 }
 
-@media screen and (max-width: 768px) {
-  #hamburger {
-    display: block;
-  }
+.nav-active {
+  transform: translateX(0);
+}
+
+#hamburger.toggle div {
+  background-color: white;
+}.toggle #bar1 {
+  transform: rotate(-45deg) translate(-5px, 4px);
+}.toggle #bar2 {
+  opacity: 0;
+}.toggle #bar3 {
+  transform: rotate(45deg) translate(-5px, -4px);
 }
