@@ -50,8 +50,10 @@ color:black;
     align-content: center;
     align-items: center;
     border-radius: 10px;
-    height: 33px;
-    width: 170px;
+    width:25%;
+    height:35px;
+    /* height: 33px;
+    width: 170px; */
   }
 
   .sem_link {
