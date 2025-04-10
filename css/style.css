@@ -109,7 +109,7 @@ nav li a:hover{
 /* ################### */
 
 
-@media  (min-width: @screen-lg-min) {
+/* @media  (min-width: @screen-lg-min) {
   .mobile-hide{ display: none !important; }
   }
   @media  (min-width: @screen-sm-min) {
@@ -117,10 +117,10 @@ nav li a:hover{
   }
   @media  (min-width: 500px) {
   .desktop-hide{ display: none !important; }
-  }
+  } */
 
-  @media (max-width: @screen-xs-max) { .mobile-hide_01 }
-@media (min-width: @screen-sm-min) and (max-width: @screen-sm-max) { .mobile-hide_02 }
-@media (min-width: @screen-md-min) and (max-width: @screen-md-max) { .mobile-hide_03 }
-@media (min-width: @screen-lg-min) { .mobile-hide_04 }
+  @media (max-width: 400px ) { .mobile-hide_01 }
+@media (min-width:401px ) and (max-width: 750px) { .mobile-hide_02 }
+@media (min-width: 751px) and (max-width: 970px) { .mobile-hide_03 }
+@media (min-width: 1170px) { .mobile-hide_04 }
 
