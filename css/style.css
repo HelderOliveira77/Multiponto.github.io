@@ -109,12 +109,12 @@ nav li a:hover{
 /* ################### */
 
 
-@media only screen and (max-width: 400px) {
+@media  (max-width: 400px) {
   .mobile-hide{ display: none !important; }
   }
-  @media only screen and (max-width: 400px) {
+  @media  (max-width: 400px) {
   .mobile{ display: inline !important; }
   }
-  @media only screen and (min-width: 500px) {
+  @media  (min-width: 500px) {
   .desktop-hide{ display: none !important; }
   }
