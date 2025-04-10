@@ -109,18 +109,18 @@ nav li a:hover{
 /* ################### */
 
 
-/* @media  (min-width: @screen-lg-min) {
+/* @media only screen and (max-width: 400px) {
   .mobile-hide{ display: none !important; }
   }
-  @media  (min-width: @screen-sm-min) {
+  @media only screen and (max-width: 400px) {
   .mobile{ display: inline !important; }
   }
-  @media  (min-width: 500px) {
+  @media only screen and (min-width: 500px) {
   .desktop-hide{ display: none !important; }
-  } */
+  }
 
   @media (max-width: 400px ) { .mobile-hide_01 }
 @media (min-width:401px ) and (max-width: 750px) { .mobile-hide_02 }
 @media (min-width: 751px) and (max-width: 970px) { .mobile-hide_03 }
 @media (min-width: 1170px) { .mobile-hide_04 }
-
+ */
