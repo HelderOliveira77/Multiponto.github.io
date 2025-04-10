@@ -1,0 +1,109 @@
+#video_inicial_multiponto {
+    /* max-width: 300px;
+    height: auto; */
+    /* float: left; */
+    /* position: relative; */
+    opacity: 20%;
+}
+
+
+.blink {
+    animation: blinker 10s linear infinite;
+    color: black;
+    font-family: sans-serif;
+  }
+  
+  @keyframes blinker {
+    100% {
+      opacity: 5%;
+    }
+  }
+
+
+  .texto_rodape {
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    text-align: left;
+    letter-spacing: 0.3px;
+    line-height: 18px;
+    color: black;
+    /* opacity: 60%; */
+  }
+
+
+  .list-group-item_home {
+font-size: 16px;
+color:black;
+  }
+
+
+  .carousel-inner .item {
+    opacity: 0;
+    transition: none;
+    transform: translate3d(0,0,0) !important;
+  }
+  
+  .carousel-inner .active {
+    transition: opacity 4s ease-in-out;
+    opacity: 1;
+  }
+
+  .botao_orçamento {
+    background-color:black;
+    color: white;
+    align-content: center;
+    align-items: center;
+    border-radius: 10px;
+    height: 33px;
+    width: 170px;
+  }
+
+
+  .sem_link {
+text-decoration: none;
+color: black;
+  }
+
+
+
+
+/* NAVBAR */
+
+nav{
+  background-color: white;
+}
+
+nav li{
+  display: inline-block;
+}
+
+nav li a{
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+  padding: 15px;
+}
+
+nav li a:hover{
+  background-color: black;
+}
+
+.dropdown-menu{
+  position: absolute;
+  box-shadow: 0 0 0px black;
+  display: none;
+}
+
+.dropdown-menu a{
+  display: block;
+  color: black;
+}
+
+.dropdown:hover .dropdown-menu{
+  display: block;
+}
+
+
+
+
+/* ################### */
