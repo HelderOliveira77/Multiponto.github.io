@@ -119,3 +119,8 @@ nav li a:hover{
   .desktop-hide{ display: none !important; }
   }
 
+  @media (max-width: @screen-xs-max) { .mobile-hide_01 }
+@media (min-width: @screen-sm-min) and (max-width: @screen-sm-max) { .mobile-hide_02 }
+@media (min-width: @screen-md-min) and (max-width: @screen-md-max) { .mobile-hide_03 }
+@media (min-width: @screen-lg-min) { .mobile-hide_04 }
+
