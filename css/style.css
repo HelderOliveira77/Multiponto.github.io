@@ -55,18 +55,7 @@ color:black;
     /* height: 33px;
     width: 170px; */
   }
-  .botao_orçamento_mobile {
-    background-color:black;
-    color: white;
-    align-content: center;
-    align-items: center;
-    border-radius: 10px;
-    width:50%;
-    height:45px;
-    /* height: 33px;
-    width: 170px; */
-  }
-
+  
   .sem_link {
 text-decoration: none;
 color: black;
