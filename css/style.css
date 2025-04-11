@@ -1,101 +1,101 @@
 #video_inicial_multiponto {
-    /* max-width: 300px;
+  /* max-width: 300px;
     height: auto; */
-    /* float: left; */
-    /* position: relative; */
-    opacity: 20%;
+  /* float: left; */
+  /* position: relative; */
+  opacity: 20%;
 }
 
 .blink {
-    animation: blinker 10s linear infinite;
-    color: black;
-    font-family: sans-serif;
-  }
-  
-  @keyframes blinker {
-    100% {
-      opacity: 5%;
-    }
-  }
+  animation: blinker 10s linear infinite;
+  color: black;
+  font-family: sans-serif;
+}
 
-  .texto_rodape {
-    font-family: Arial, sans-serif;
-    font-size: 12px;
-    text-align: left;
-    letter-spacing: 0.3px;
-    line-height: 18px;
-    color: black;
-    /* opacity: 60%; */
+@keyframes blinker {
+  100% {
+    opacity: 5%;
   }
+}
 
-  .list-group-item_home {
-font-size: 16px;
-color:black;
-  }
+.texto_rodape {
+  font-family: Arial, sans-serif;
+  font-size: 12px;
+  text-align: left;
+  letter-spacing: 0.3px;
+  line-height: 18px;
+  color: black;
+  /* opacity: 60%; */
+}
 
-  .carousel-inner .item {
-    opacity: 0;
-    transition: none;
-    transform: translate3d(0,0,0) !important;
-  }
-  
-  .carousel-inner .active {
-    transition: opacity 4s ease-in-out;
-    opacity: 1;
-  }
+.list-group-item_home {
+  font-size: 16px;
+  color: black;
+}
 
-  .botao_orçamento {
-    background-color:black;
-    color: white;
-    align-content: center;
-    align-items: center;
-    border-radius: 10px;
-    width:25%;
-    height:35px;
-    /* height: 33px;
+.carousel-inner .item {
+  opacity: 0;
+  transition: none;
+  transform: translate3d(0, 0, 0) !important;
+}
+
+.carousel-inner .active {
+  transition: opacity 4s ease-in-out;
+  opacity: 1;
+}
+
+.botao_orçamento {
+  background-color: black;
+  color: white;
+  align-content: center;
+  align-items: center;
+  border-radius: 10px;
+  width: 25%;
+  height: 35px;
+  /* height: 33px;
     width: 170px; */
-  }
-  
-  .sem_link {
-text-decoration: none;
-color: black;
-  }
+}
+
+.sem_link {
+  text-decoration: none;
+  color: black;
+}
 
 
 
 /* NAVBAR */
 
-nav{
+nav {
   background-color: white;
 }
 
-nav li{
+nav li {
   display: inline-block;
 }
 
-nav li a{
+nav li a {
   display: inline-block;
   color: white;
   text-decoration: none;
   padding: 15px;
 }
 
-nav li a:hover{
+nav li a:hover {
   background-color: black;
 }
 
-.dropdown-menu{
+.dropdown-menu {
   position: absolute;
   box-shadow: 0 0 0px black;
   display: none;
 }
 
-.dropdown-menu a{
+.dropdown-menu a {
   display: block;
   color: black;
 }
 
-.dropdown:hover .dropdown-menu{
+.dropdown:hover .dropdown-menu {
   display: block;
 }
 
@@ -109,11 +109,11 @@ nav li a:hover{
   width: 40%;
   height: 800px;
   gap: 15px;
-grid-template-areas: 
-  "item-1 item-2 item-3 item-4 "
-  "item-5 item-6 item-7 item-8"
-  "item-9 item-10 item-11 item-12"
-  "item-13 item-14 item-15 item-16"
+  grid-template-areas:
+    "item-1 item-2 item-3 item-4 "
+    "item-5 item-6 item-7 item-8"
+    "item-9 item-10 item-11 item-12"
+    "item-13 item-14 item-15 item-16"
 }
 
 .container_grid_home_mobile {
@@ -121,11 +121,11 @@ grid-template-areas:
   width: 40%;
   height: 500px;
   gap: 15px;
-grid-template-areas: 
-  "item-1 item-2"
-  "item-3 item-4"
-  "item-5 item-6"
-  "item-7 item-8"
+  grid-template-areas:
+    "item-1 item-2"
+    "item-3 item-4"
+    "item-5 item-6"
+    "item-7 item-8"
 }
 
 
@@ -140,27 +140,32 @@ grid-template-areas:
   background: black;
   opacity: 20%;
 }
+
 .item-3 {
   grid-area: item-3;
   background: black;
   opacity: 20%;
 
 }
+
 .item-4 {
   grid-area: item-4;
   background: black;
   opacity: 20%;
 }
+
 .item-5 {
   grid-area: item-5;
   background: black;
   opacity: 20%;
 }
+
 .item-6 {
   grid-area: item-6;
   background: black;
   opacity: 20%;
 }
+
 .item-7 {
   grid-area: item-7;
   background: black;
@@ -172,22 +177,26 @@ grid-template-areas:
   background: black;
   opacity: 20%;
 }
+
 .item-9 {
   grid-area: item-9;
   background: black;
   opacity: 20%;
 
 }
+
 .item-10 {
   grid-area: item-10;
   background: black;
   opacity: 20%;
 }
+
 .item-11 {
   grid-area: item-11;
   background: black;
   opacity: 20%;
 }
+
 .item-12 {
   grid-area: item-12;
   background: black;
@@ -199,16 +208,19 @@ grid-template-areas:
   background: black;
   opacity: 20%;
 }
+
 .item-14 {
   grid-area: item-14;
   background: black;
   opacity: 20%;
 }
+
 .item-15 {
   grid-area: item-15;
   background: black;
   opacity: 20%;
 }
+
 .item-16 {
   grid-area: item-16;
   background: black;
@@ -223,5 +235,27 @@ grid-template-areas:
   transform: translateX(100px);
   /* background: linear-gradient(120deg, black 100%, #466e83 100%); */
 }
+
+
+
+/* ##################### */
+
+.logos{
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap
+  }
+  
+  .logos .logo{
+  height: 200px;
+  background-size: cover !important
+  }
+  
+  .logos .logo img {
+  height: 200px;
+  width: 300px
+  }
 
 

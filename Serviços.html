@@ -14,93 +14,111 @@
   <link rel="stylesheet" type="text/css"
     href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
 
-  <link rel="stylesheet" href="css/animate.css">
+
+  <!-- CARROSSEL -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+  <link href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" rel="stylesheet" />
+
 
 </head>
 
 
 
 <body>
-  <!-- ############################# -->
-  <!-- ############################# -->
+
   <!-- CABEÇALHOS -->
   <!-- MOBILE -->
-  <div class="container-fluid d-sm-block d-md-none">
-    <div class="row" style="justify-content: center;">
-      <div class="logo_Centrado_Multi" style="margin-top: 20px;">
-        <a href="index.html" target="_blank"> 
-        <img src="wp-content/logo multiponto_pequeno.png" width="auto" height="34"
+  <div class="container-fluid d-lg-none">
+    <div class="row" style="justify-content: center; margin-top: 10px;">
+      <a href="index.html" target="_blank">
+        <img src="wp-content/logo multiponto_pequeno.png" width="auto" height="100"
           style="align-items: center; align-content: center;" />
-      </div>
     </div>
   </div>
 
-  <div class="container-fluid d-sm-block d-md-none">
-    <div class='topo' style="margin-top: 10px; margin-left: 5px; margin-right: 5px;">
-      <ul class="nav justify-content-center">
-        <li class="nav-item" style="padding-left: 30px; padding-right: 30px;">
-          <a class="nav-link" aria-current="page" href="SobreNos.html">
-            <button type="button" class="btn btn-outline-secondary"
-              style="font-size: 14px; line-height: 8px; letter-spacing: 1px; color:#A4A4A4; text-decoration: none; vertical-align: top; border: 0px; text-transform: uppercase;  ">
-              Sobre nós</button> </a>
-        </li>
-        <li class="nav-item" style="padding-left: 30px; padding-right: 30px;">
-          <a class="nav-link" aria-current="page" href="Serviços.html">
-            <button type="button" class="btn btn-outline-secondary"
-              style="font-size: 14px; line-height: 8px; letter-spacing: 1px; color:#A4A4A4; text-decoration: none; vertical-align: top; border: 0px; text-transform: uppercase;">
-              Serviços </button> </a>
-        </li>
-
-        <li class="nav-item" style="padding-left: 30px; padding-right: 30px;">
-          <a class="nav-link" href="Contactos.html">
-            <button type="button" class="btn btn-outline-secondary"
-              style="font-size: 14px; line-height: 8px; letter-spacing: 1px; color:#A4A4A4; text-decoration: none; vertical-align: top; border: 0px; text-transform: uppercase; ">
-              Contactos </button> </a>
-        </li>
-
-      </ul>
+  <div class="container-fluid d-lg-none">
+    <div class="nav justify-content-center" style="margin-top: 20px;">
+      <button type="button" class="btn btn-outline-secondary" style="border: 0px;">
+        <a href="SobreNos.html"
+          style="font-size: 32px; line-height: 44px; letter-spacing: 1px; color:#A4A4A4; text-decoration: none; vertical-align: top; border: 0px; text-transform: uppercase;  ">
+          Sobre nós</a> </button>
+    </div>
+    <div class="nav justify-content-center">
+      <button type="button" class="btn btn-outline-secondary" style="border: 0px;">
+        <a href="Serviços.html"
+          style="font-size: 32px; line-height: 44px; letter-spacing: 1px; color:#A4A4A4; text-decoration: none; vertical-align: top; border: 0px; text-transform: uppercase;">
+          Serviços</a> </button>
+    </div>
+    <div class="nav justify-content-center">
+      <button type="button" class="btn btn-outline-secondary" style="border: 0px;">
+        <a href="Produtos.html"
+          style="font-size: 32px; line-height: 44px; letter-spacing: 1px; color:#A4A4A4; text-decoration: none; vertical-align: top; border: 0px; text-transform: uppercase;">
+          Produtos</a> </button>
+    </div>
+    <div class="nav justify-content-center">
+      <button type="button" class="btn btn-outline-secondary" style="border: 0px;">
+        <a href="Contactos.html"
+          style="font-size: 32px; line-height: 44px; letter-spacing: 1px; color:#A4A4A4; text-decoration: none; vertical-align: top; border: 0px; text-transform: uppercase; ">
+          Contactos</a> </button>
     </div>
   </div>
   <!-- FIM DA VERSAO MOBILE -->
 
   <!-- VERSAO DESKTOP -->
-  <div class="d-none d-sm-none d-md-block col-md-12" style="padding-top:10px;padding-bottom:0px;">
-    <h1 class="animated lightSpeedIn text-center" style="margin-bottom: 30px;">
-      <a href="index.html" target="_blank"> 
-      <img src="wp-content/logo multiponto_pequeno.png" width="auto" height="45" style="padding-right: 50px;" />
+  <div class="d-none d-lg-block" style="padding-top:10px;padding-bottom:0px;">
+    <h1 class="animated lightSpeedIn text-center" style="margin-bottom: 20px;">
+      <a aria-current="" href="index.html">
+        <img src="wp-content/logo multiponto_pequeno.png" width="auto" height="55" style="padding-right: 0px;" />
     </h1>
-    <!-- <h1 class="animated lightSpeedIn text-center"> 
-      <img src="wp-content/logo digipress New_pequeno.png" width="auto" height="60" />  
-    </h1> -->
-    <!-- <h4 class="animated fadeIn text-center">Desenvolvedora Web</h4> -->
   </div>
-
-  <div class="container-fluid d-none d-sm-block">
-    <div class='topo' style="margin-top: 0px; margin-left: 5px; margin-right: 5px;">
-      <ul class="nav justify-content-center">
-        <li class="nav-item" style="padding-left: 30px; padding-right: 30px;">
-          <a class="nav-link" aria-current="page" href="SobreNos.html">
-            <button type="button" class="btn btn-outline-secondary"
-              style="font-size: 16px; letter-spacing: 0.5px; color:#A4A4A4; text-decoration: none; vertical-align: top; border: 0px; text-transform: uppercase;  ">
-              Sobre nós</button> </a>
+  <div class="container-fluid d-none d-lg-block">
+    <nav style="text-align: center; justify-content: center;">
+      <ul>
+        <li class="dropdown" style="padding-left: 30px; padding-right: 30px;">
+          <a style="font-size: 16px; letter-spacing: 1px; color:#A4A4A4; text-decoration: none;  border: 0px; text-transform: uppercase;"
+            href="SobreNos.html">Sobre nós</a>
+          <div class="dropdown-menu"
+            style="text-decoration: none; border: 0px; background-color: white; opacity: 80%;text-transform: uppercase; color: black; font-size: 13px; ">
+            <a href=""> A nossa história </a>
+            <a href="">Organização</a>
+            <a href="">Política de gestão</a>
+            <a href="">Compromisso Cadeia de Custóias (COC)</a>
+            <a href="">Certificação</a>
+          </div>
         </li>
-        <li class="nav-item" style="padding-left: 30px; padding-right: 30px;">
-          <a class="nav-link" aria-current="page" href="Serviços.html">
-            <button type="button" class="btn btn-outline-secondary"
-              style="font-size: 16px; letter-spacing: 0.5px; color:#A4A4A4; text-decoration: none; vertical-align: top; border: 0px; text-transform: uppercase;">
-              Serviços </button> </a>
+        <li class="dropdown" style="padding-left: 30px; padding-right: 30px;">
+          <a style="font-size: 16px; letter-spacing: 1px; color:#A4A4A4; text-decoration: none;  border: 0px; text-transform: uppercase;"
+            href="Serviços.html">Serviços</a>
+          <div class="dropdown-menu"
+            style="text-decoration: none; border: 0px; background-color: white; opacity: 80%;text-transform: uppercase; color: black; font-size: 13px; ">
+            <a href="Serviços.html#IMP DIGITAL"> IMPRESSÃO DIGITAL</a>
+            <a href="Serviços.html#IMP OFFSET">IMPRESSÃO OFFSET</a>
+            <a href="Serviços.html#ROTATIVA">ROTATIVA</a>
+            <a href="Serviços.html#ROTULOS">RÓTULOS</a>
+            <a href="Serviços.html#EMBALAGENS">EMBALAGENS</a>
+            <a href="Serviços.html#ACABAMENTOS">ACABAMENTOS</a>
+          </div>
         </li>
-
-        <li class="nav-item" style="padding-left: 30px; padding-right: 30px;">
-          <a class="nav-link" href="Contactos.html">
-            <button type="button" class="btn btn-outline-secondary"
-              style="font-size: 16px; letter-spacing: 0.5px; color:#A4A4A4; text-decoration: none; vertical-align: top; border: 0px; text-transform: uppercase; ">
-              Contactos </button> </a>
+        <li class="dropdown" style="padding-left: 30px; padding-right: 30px;">
+          <a style="font-size: 16px; letter-spacing: 1px; color:#A4A4A4; text-decoration: none;  border: 0px; text-transform: uppercase;"
+            href="Produtos.html">Produtos</a>
+          <div class="dropdown-menu"
+            style="text-decoration: none; border: 0px; background-color: white; opacity: 80%;text-transform: uppercase; color: black; font-size: 13px; ">
+            <a href="">Livros | Catálogos | Revistas | Jornais</a>
+            <a href="">Folhetos | Cartazes | Flyers| Cartões</a>
+            <a href="">Rótulos | Etiquetas | Autocolantes</a>
+            <a href="">Lonas | Vinis | Displays | Telas | Montras</a>
+          </div>
+        </li>
+        <li class="dropdown" style="padding-left: 30px; padding-right: 30px;">
+          <a style="font-size: 16px; letter-spacing: 1px; color:#A4A4A4; text-decoration: none;  border: 0px; text-transform: uppercase;"
+            href="Contactos.html">Contactos</a>
         </li>
       </ul>
-    </div>
+    </nav>
   </div>
-  <!-- <hr size="1" style="border:0.5px solid #A4A4A4; margin-right:170px;margin-left:170px; margin-top: 0px;"> -->
   <!-- FIM VERSAO DESKTOP -->
   <!-- ############################# -->
   <!-- ############################# -->
@@ -276,215 +294,299 @@
   </div> -->
   <div class="container-fluid d-none d-sm-block">
     <div class="row"
-      style="padding-left: 0px; padding-top: 80px; text-align: center; align-content: center; display:flex; justify-content: center;">
-      <div class="card" style="width: 500px; padding-left: 60px; padding-right: 60px; border: 0px;">
-        <!-- IMPRESSAO DIGITAL -->
-         
-        <ul class="list-group list-group-flush" style="list-style: none; position:relative; left:-20px;">
-          <section id ="IMP DIGITAL">
-          <li class="list-group-item_home"
-            style="margin-bottom: 20px;font-weight: 600; font-size: 27px; letter-spacing: 0.5px; ">IMPRESSÃO DIGITAL </li>
-          </section>
-          <li class="list-group-item_home">
-            <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
-              <div class="carousel-inner">
-                <div class="carousel-item active">
-                  <img src="wp-content/Home/ImpressaoDigital_01.png"
-                    style="width: 90%; height: 160px; margin-bottom: 30px; border-radius: 20px;">
-                </div>
-                <div class="carousel-item">
-                  <img src="wp-content/Home/ImpressaoDigital_02.png"
-                    style="width: 90%; height: 160px; margin-bottom: 30px; border-radius: 20px; ">
-                </div>
-                <div class="carousel-item">
-                  <img src="wp-content/Home/ImpressaoDigital_03.png"
-                    style="width: 90%; height: 160px; margin-bottom: 30px; border-radius: 20px; ">
-                </div>
-                <div class="carousel-item">
-                  <img src="wp-content/Home/ImpressaoDigital_04.png"
-                    style="width: 90%; height: 160px; margin-bottom: 30px; border-radius: 20px;">
-                </div>
-              </div>
-            </div>
-          </li>
-          <li class="list-group-item" style="text-align: justify; font-size: 16px; line-height: 26px;"> <strong>
-              PEQUENOS FORMATOS</strong>, ideais para personalizações e impressão de pequenas quantidades imprimir em
-            papel ior, couchés, fine papers e acetatos, com uma gramagem máxima até 300 grs.
-            <br> <br> <strong>GRANDES FORMATOS </strong> podem ser usados vários materiais e acabamentos desde a lona, a
-            tela artística, papel simples ou fotográfico, autocolante, vinil, laminação brilho ou mate, contra colagens
-            em pvc, microonda, k-mount e corte de plotter.
-          </li>
-        </ul>
-
-      </div>
-      <div class="card" style="width: 500px; padding-left: 60px; padding-right: 60px; border: 0px;">
-        <!-- IMPRESSÃ OFFSET -->
-        <ul class="list-group list-group-flush" style="list-style: none; position:relative; left:-20px;">
-          <section id ="IMP OFFSET">
-          <li class="list-group-item_home"
-          style="margin-bottom: 20px;font-weight:600; font-size: 27px; letter-spacing: 0.5px;">IMPRESSÃO OFFSET 
-        </section>
-        </li>
-          <li class="list-group-item_home">
-            <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
-              <div class="carousel-inner">
-                <div class="carousel-item active">
-                  <img src="wp-content/Home/ImpressaoOffSet_01.png"
-                    style="width: 90%; height: 160px; margin-bottom: 30px; border-radius: 20px; ">
-                </div>
-                <div class="carousel-item">
-                  <img src="wp-content/Home/ImpressaoOffSet_02.png"
-                    style="width: 90%; height: 160px; margin-bottom: 30px; border-radius: 20px;">
-                </div>
-              </div>
-            </div>
-          </li>
-     
-          <li class="list-group-item" style="text-align: justify; font-size: 16px; line-height: 26px;"> Possuímos
-            capacidade técnica que permite ao cliente escolher uma vasta variedade de trabalhos, tais como a impressão
-            offset a 1,2 e até 6 cores
-            com verniz em simultâneo, quer em papel, quer em cartolina.
-            <br> Oferecemos igualmente várias opções de acabamentos como corte e vinco, relevo, estampagem,
-            plastificação a quente, corte de guilhotina, dobra e agrafar.
-          </li>
-        </ul>
-      </div>
-      <div class="card" style="width: 500px; padding-left: 60px; padding-right: 60px; border: 0px;">
-        <ul class="list-group list-group-flush" style="list-style: none; position:relative; left:-20px;">
-          <!-- ROTATIVA -->
-          <section id ="ROTATIVA">
-          <li class="list-group-item_home"
-          style="margin-bottom: 20px;font-weight: 600; font-size: 27px; letter-spacing: 0.5px;"> ROTATIVA 
-          </section>
-        </li>
-
-          <li lass="list-group-item_home">
-            <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
-              <div class="carousel-inner">
-                <div class="carousel-item active">
-                  <img src="wp-content/Home/Rotativa_01.png"
-                    style="width: 90%; height: 160px; margin-bottom: 30px; border-radius: 20px;">
-                </div>
-                <div class="carousel-item">
-                  <img src="wp-content/Home/Rotativa_02.png"
-                    style="width: 90%; height: 160px; margin-bottom: 30px; border-radius: 20px;">
-                </div>
-              </div>
-            </div>
-          </li>
-          
-          <li class="list-group-item" style="text-align: justify; font-size: 16px; line-height: 26px;"> Neste segmento
-            das artes gráficas, a Multiponto possui duas máquinas rotativas com impressão a 4 cores frente e verso
-            usando papel em bobine, sendo direcionadas para médias e grandes tiragens, possibilitando ao cliente a
-            impressão de brochuras, folhetos, revistas, livros, entre outros.</li>
-        </ul>
-      </div>
-    </div>
-
-    <!-- SEGUNDA LINHA -->
-    <div class="row"
       style="padding-left: 0px; padding-top: 60px; text-align: center; align-content: center; display:flex; justify-content: center;">
-      <div class="card" style="width: 500px; padding-left: 60px; padding-right: 60px; border: 0px;">
-        <ul class="list-group list-group-flush" style="list-style: none; position:relative; left:-20px;">
-          <!-- ROTULOS -->
-          <section id ="ROTULOS">
-          <li class="list-group-item_home"
-          style="margin-bottom: 20px;font-weight: 600; font-size: 27px; letter-spacing: 0.5px;">RÓTULOS
-          </section>
-        </li>
 
-          <li class="list-group-item_home">
-            <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
-              <div class="carousel-inner">
-                <div class="carousel-item active">
-                  <img src="wp-content/Home/Rotulos_01.png"
-                    style="width: 90%; height: 160px; margin-bottom: 30px; border-radius: 20px;">
-                </div>
-                <div class="carousel-item">
-                  <img src="wp-content/Home/Rotulos_02.png"
-                    style="width: 90%; height: 160px; margin-bottom: 30px; border-radius: 20px;">
-                </div>
-                <div class="carousel-item">
-                  <img src="wp-content/Home/Rotulos_03.png"
-                    style="width: 90%; height: 160px; margin-bottom: 30px; border-radius: 20px;">
-                </div>
-              </div>
-            </div>
-          </li>
-         
-          <li class="list-group-item" style="text-align: justify; font-size: 16px; line-height: 26px;">Para esta área de
-            trabalho existe uma panóplia de opções que podem ser oferecidas ao cliente mediante o seu pedido e
-            especificações do trabalho e que vão desde estampado a quente, verniz reserva, verniz geral, plástico mate
-            ou brilho, tipo de enrolamento, etc.
-          </li>
-        </ul>
-      </div>
-      <div class="card" style="width: 500px; padding-left: 60px; padding-right: 60px; border: 0px;">
+      <!-- IMPRESSAO DIGITAL -->
+      <div class="card" style="width: 60%; padding-left: 60px; padding-right: 60px; border: 0px;">
         <ul class="list-group list-group-flush" style="list-style: none; position:relative; left:-20px;">
-          <!-- EMBALAGENS -->
-          <section id ="EMBALAGENS">
-          <li class="list-group-item_home"
-          style="margin-bottom: 20px;font-weight: 600; font-size: 27px; letter-spacing: 0.5px;">EMBALAGENS 
+          <section id="IMP DIGITAL">
+            <li class="list-group-item_home"
+              style="margin-bottom: 20px;font-weight: 100; font-size: 44px; letter-spacing: 2.5px; ">IMPRESSÃO DIGITAL
+            </li>
           </section>
-        </li>
-          <li class="list-group-item_home">
-            <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
-              <div class="carousel-inner">
-                <div class="carousel-item active">
-                  <img src="wp-content/Home/Embalagens_01.png"
-                    style="width: 90%; height: 160px; margin-bottom: 30px; border-radius: 20px;">
-                </div>
-                <div class="carousel-item">
-                  <img src="wp-content/Home/Embalagens_02.png"
-                    style="width: 90%; height: 160px; margin-bottom: 30px; border-radius: 20px;">
-                </div>
-              </div>
-            </div>
-          </li>
-          
-          <li class="list-group-item" style="text-align: justify; font-size: 16px; line-height: 26px;"> As máquinas de
-            embalagem, dobra, corte e vinco e colagem estão projetadas para fabricar, moldar e personalizar embalagens a
-            partir de papel, cartolina e cartão. A máquina corta o papel ou cartolina em tamanhos específicos e pode
-            criar formas ou estruturas desejadas para as embalagens, como caixas, sacas ou outras formas de embalagem.
-            No que diz respeito à dobra, pode realizar dobras precisas no material para facilitar o fecho ou a montagem
-            da embalagem. A máquina permite ainda a aplicação de cola para garantir o fecho firme.</li>
-        </ul>
-      </div>
-      <div class="card" style="width: 500px; padding-left: 60px; padding-right: 60px; border: 0px;">
-        <ul class="list-group list-group-flush" style="list-style: none; position:relative; left:-20px;">
-          <section id ="ACABAMENTOS">
-          <li class="list-group-item_home"
-          style="margin-bottom: 20px;font-weight: 600; font-size: 27px; letter-spacing: 0.5px;"> ACABAMENTOS 
-        </section>
-        </li>
+          <li>
+            <div class="single-item logos col-12" style="margin-bottom: 30px;">
 
-          <li class="list-group-item_home">
-            <!-- ACABAMENTOS -->
-            <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
-              <div class="carousel-inner">
-                <div class="carousel-item active">
-                  <img src="wp-content/Home/Acabamentos_01.png"
-                    style="width: 90%; height: 160px; margin-bottom: 30px; border-radius: 20px;">
-                </div>
-                <div class="carousel-item">
-                  <img src="wp-content/Home/Acabamentos_02.png"
-                    style="width: 90%; height: 160px; margin-bottom: 30px; border-radius: 20px;">
-                </div>
+              <div class="logo"><img src="wp-content/Home/ImpressaoDigital_01.png" alt="">
+              </div>
+
+              <div class="logo"><img src="wp-content/Home/ImpressaoDigital_02.png" alt="">
+              </div>
+
+              <div class="logo"><img src="wp-content/Home/ImpressaoDigital_03.png" alt="">
+              </div>
+
+              <div class="logo"><img src="wp-content/Home/ImpressaoDigital_04.png" alt="">
+              </div>
+              <div class="logo"><img src="wp-content/Home/ImpressaoDigital_01.png" alt="">
+              </div>
+              <div class="logo"><img src="wp-content/Home/ImpressaoDigital_02.png" alt="">
+              </div>
+              <div class="logo"><img src="wp-content/Home/ImpressaoDigital_03.png" alt="">
+              </div>
+              <div class="logo"><img src="wp-content/Home/ImpressaoDigital_04.png" alt="">
               </div>
             </div>
           </li>
-          <li class="list-group-item" style="text-align: justify; font-size: 16px; line-height: 26px;"> São várias as
-            máquinas de acabamento que permitem ter uma vasta variedade de opções, tais como plastificação,
-            envernizamento ultravioleta, agrafar, dobrar, serrotar e colar, coser a fio, meter capa, embalagem em manga
-            plástica, com colocação de folha de rosto e encartes, corte e vinco, colagem de caixas, estampagem e
-            relevos.</li>
+
         </ul>
       </div>
     </div>
   </div>
+  <div class="container-fluid d-none d-lg-block" style="padding-top: 0px; padding-bottom: 0px; width: 30%;">
+    <div class="row" ">
+      <table align=" center"
+      style="margin-bottom: 0px; margin-top: 0px; text-align: justify; font-size: 19px; line-height: 30px; border-top: 0px; ">
+        <tr>
+          <td>
+            <p style=" text-align: center;"> <strong> PEQUENOS FORMATOS</strong> </p>
+      Ideais para personalizações e impressão de pequenas quantidades imprimir em
+      papel ior, couchés, fine papers e acetatos, com uma gramagem máxima até 300 grs. <br> <br> 
+      <p style="text-align: center; "> <strong>GRANDES FORMATOS </strong> </p>
+      Podem ser usados vários materiais e acabamentos desde a lona, a
+      tela artística, papel simples ou fotográfico, autocolante, vinil, laminação brilho ou mate, contra colagens
+      em pvc, microonda, k-mount e corte de plotter.
+      </td>
+      </tr>
+      </table>
+    </div>
+  </div>
+
+  <!-- IMPRESSAO OFFSET -->
+    <div class="container-fluid d-none d-sm-block" style="background-color: rgb(240, 240, 240);">
+  <div class="container-fluid d-none d-sm-block" style="margin-top: 80px;">
+    <div class="row"
+      style="padding-left: 0px; padding-top: 20px; text-align: center; align-content: center; display:flex; justify-content: center;">
+      <div class="card" style="width: 60%; padding-left: 60px; padding-right: 60px; border: 0px; background-color: rgb(240, 240, 240)">
+        <ul class="list-group list-group-flush" style="list-style: none; position:relative; left:-20px;">
+          <section id="IMP OFFSET">
+            <li class="list-group-item_home"
+              style="margin-bottom: 20px;font-weight: 100; font-size: 44px; letter-spacing: 2.5px; ">IMPRESSÃO OFFSET
+            </li>
+          </section>
+          <li>
+            <div class="single-item logos col-12" style="margin-bottom: 30px;">
+
+              <div class="logo"><img src="wp-content/Home/ImpressaoOffSet_01.png" alt="">
+              </div>
+
+              <div class="logo"><img src="wp-content/Home/ImpressaoOffSet_02.png" alt="">
+              </div>
+
+              <div class="logo"><img src="wp-content/Home/ImpressaoOffSet_01.png" alt="">
+              </div>
+
+              <div class="logo"><img src="wp-content/Home/ImpressaoOffSet_02.png" alt="">
+              </div>
+              <div class="logo"><img src="wp-content/Home/ImpressaoOffSet_01.png" alt="">
+              </div>
+              <div class="logo"><img src="wp-content/Home/ImpressaoOffSet_02.png" alt="">
+              </div>
+              <div class="logo"><img src="wp-content/Home/ImpressaoOffSet_01.png" alt="">
+              </div>
+              <div class="logo"><img src="wp-content/Home/ImpressaoOffSet_02.png" alt="">
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="container-fluid d-none d-lg-block" style="padding-top: 0px; padding-bottom: 10px; width: 30%;">
+    <div class="row">
+      <table align=" center"
+      style="margin-bottom: 0px; margin-top: 0px; text-align: justify; font-size: 19px; line-height: 30px; border-top: 0px; ">
+        <tr>
+          <td>
+            <p > Possuímos capacidade técnica que permite ao cliente escolher uma vasta variedade de trabalhos, tais como a impressão
+              offset a 1, 2 e até 6 cores com verniz em simultâneo, quer em papel, quer em cartolina.
+              <br> <br> Oferecemos igualmente várias opções de acabamentos como corte e vinco, relevo, estampagem,
+              plastificação a quente, corte de guilhotina, dobra e agrafar.
+  
+      </td>
+      </tr>
+      </table>
+    </div>
+</div>
+</div>
+
+<!-- ROTATIVA -->
+<div class="container-fluid d-none d-sm-block">
+  <div class="row"
+    style="padding-left: 0px; padding-top: 60px; text-align: center; align-content: center; display:flex; justify-content: center;">
+    <div class="card" style="width: 60%; padding-left: 60px; padding-right: 60px; border: 0px;">
+      <ul class="list-group list-group-flush" style="list-style: none; position:relative; left:-20px;">
+        <section id="ROTATIVA">
+          <li class="list-group-item_home"
+            style="margin-bottom: 20px;font-weight: 100; font-size: 44px; letter-spacing: 2.5px; ">ROTATIVA
+          </li>
+        </section>
+        <li>
+          <div class="single-item logos col-12" style="margin-bottom: 30px;">
+
+            <div class="logo"><img src="wp-content/Home/Rotativa_01.png" alt="">
+            </div>
+
+            <div class="logo"><img src="wp-content/Home/Rotativa_02.png" alt="">
+            </div>
+
+            <div class="logo"><img src="wp-content/Home/Rotativa_01.png" alt="">
+            </div>
+
+            <div class="logo"><img src="wp-content/Home/Rotativa_02.png" alt="">
+            </div>
+            <div class="logo"><img src="wp-content/Home/Rotativa_01.png" alt="">
+            </div>
+            <div class="logo"><img src="wp-content/Home/Rotativa_02.png" alt="">
+            </div>
+            <div class="logo"><img src="wp-content/Home/Rotativa_01.png" alt="">
+            </div>
+            <div class="logo"><img src="wp-content/Home/Rotativa_02.png" alt="">
+            </div>
+          </div>
+        </li>
+
+      </ul>
+    </div>
+  </div>
+</div>
+<div class="container-fluid d-none d-lg-block" style="padding-top: 0px; padding-bottom: 0px; width: 30%;">
+  <div class="row" ">
+    <table align=" center"
+    style="margin-bottom: 0px; margin-top: 0px; text-align: justify; font-size: 19px; line-height: 30px; border-top: 0px; ">
+      <tr>
+        <td>
+          <p> Neste segmento das artes gráficas, a Multiponto possui duas máquinas rotativas com impressão a 4 cores frente e verso
+            usando papel em bobine, sendo direcionadas para médias e grandes tiragens, possibilitando ao cliente a  impressão de brochuras, folhetos, revistas, livros, entre outros.
+    </td>
+    </tr>
+    </table>
+  </div>
+</div>
+
+
+<!-- ROTULOS -->
+  <!-- IMPRESSAO OFFSET -->
+  <div class="container-fluid d-none d-sm-block" style="background-color: rgb(240, 240, 240);">
+    <div class="container-fluid d-none d-sm-block" style="margin-top: 80px;">
+      <div class="row"
+        style="padding-left: 0px; padding-top: 20px; text-align: center; align-content: center; display:flex; justify-content: center;">
+        <div class="card" style="width: 60%; padding-left: 60px; padding-right: 60px; border: 0px; background-color: rgb(240, 240, 240)">
+          <ul class="list-group list-group-flush" style="list-style: none; position:relative; left:-20px;">
+            <section id="ROTULOS">
+              <li class="list-group-item_home"
+                style="margin-bottom: 20px;font-weight: 100; font-size: 44px; letter-spacing: 2.5px; ">RÓTULOS
+              </li>
+            </section>
+            <li>
+              <div class="single-item logos col-12" style="margin-bottom: 30px;">
+  
+                <div class="logo"><img src="wp-content/Home/Rotulos_01.png" alt="">
+                </div>
+  
+                <div class="logo"><img src="wp-content/Home/Rotulos_02.png" alt="">
+                </div>
+  
+                <div class="logo"><img src="wp-content/Home/Rotulos_03.png" alt="">
+                </div>
+  
+                <div class="logo"><img src="wp-content/Home/Rotulos_01.png" alt="">
+                </div>
+                <div class="logo"><img src="wp-content/Home/Rotulos_02.png" alt="">
+                </div>
+                <div class="logo"><img src="wp-content/Home/Rotulos_03.png" alt="">
+                </div>
+                <div class="logo"><img src="wp-content/Home/Rotulos_01.png" alt="">
+                </div>
+                <div class="logo"><img src="wp-content/Home/Rotulos_02.png" alt="">
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  
+    <div class="container-fluid d-none d-lg-block" style="padding-top: 0px; padding-bottom: 10px; width: 30%;">
+      <div class="row">
+        <table align=" center"
+        style="margin-bottom: 0px; margin-top: 0px; text-align: justify; font-size: 19px; line-height: 30px; border-top: 0px; ">
+          <tr>
+            <td>
+              <p > Para esta área de trabalho existe uma panóplia de opções que podem ser oferecidas ao cliente mediante o seu pedido e
+                especificações do trabalho e que vão desde estampado a quente, verniz reserva, verniz geral, plástico mate ou brilho, tipo de enrolamento, etc.
+        </td>
+        </tr>
+        </table>
+      </div>
+  </div>
+  </div>
+
+
+  <!-- EMBALAGENS -->
+  <!-- IMPRESSAO OFFSET -->
+  <div class="container-fluid d-none d-sm-block" style="background-color: rgb(240, 240, 240);">
+    <div class="container-fluid d-none d-sm-block" style="margin-top: 80px;">
+      <div class="row"
+        style="padding-left: 0px; padding-top: 20px; text-align: center; align-content: center; display:flex; justify-content: center;">
+        <div class="card" style="width: 60%; padding-left: 60px; padding-right: 60px; border: 0px; background-color: rgb(240, 240, 240)">
+          <ul class="list-group list-group-flush" style="list-style: none; position:relative; left:-20px;">
+            <section id="EMBALAGENS">
+              <li class="list-group-item_home"
+                style="margin-bottom: 20px;font-weight: 100; font-size: 44px; letter-spacing: 2.5px; ">EMBALAGENS
+              </li>
+            </section>
+            <li>
+              <div class="single-item logos col-12" style="margin-bottom: 30px;">
+  
+                <div class="logo"><img src="wp-content/Home/Embalagens_01.png" alt="">
+                </div>
+  
+                <div class="logo"><img src="wp-content/Home/Embalagens_02.png" alt="">
+                </div>
+  
+                <div class="logo"><img src="wp-content/Home/Embalagens_01.png" alt="">
+                </div>
+  
+                <div class="logo"><img src="wp-content/Home/Embalagens_02.png" alt="">
+                </div>
+                <div class="logo"><img src="wp-content/Home/Embalagens_01.png" alt="">
+                </div>
+                <div class="logo"><img src="wp-content/Home/Embalagens_02.png" alt="">
+                </div>
+                <div class="logo"><img src="wp-content/Home/Embalagens_01.png" alt="">
+                </div>
+                <div class="logo"><img src="wp-content/Home/Embalagens_02.png" alt="">
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  
+    <div class="container-fluid d-none d-lg-block" style="padding-top: 0px; padding-bottom: 10px; width: 30%;">
+      <div class="row">
+        <table align=" center"
+        style="margin-bottom: 0px; margin-top: 0px; text-align: justify; font-size: 19px; line-height: 30px; border-top: 0px; ">
+          <tr>
+            <td>
+              <p > As máquinas de  embalagem, dobra, corte e vinco e colagem estão projetadas para fabricar, moldar e personalizar embalagens a
+                partir de papel, cartolina e cartão. A máquina corta o papel ou cartolina em tamanhos específicos e pode
+                criar formas ou estruturas desejadas para as embalagens, como caixas, sacas ou outras formas de embalagem.
+                No que diz respeito à dobra, pode realizar dobras precisas no material para facilitar o fecho ou a montagem
+                da embalagem. A máquina permite ainda a aplicação de cola para garantir o fecho firme.    
+        </td>
+        </tr>
+        </table>
+      </div>
+  </div>
+  </div>
+
+
+
   <!-- FIM DA VERSÃO DESKTOP -->
-
-
   <!-- ############################# -->
   <!-- ############################# -->
 
@@ -495,13 +597,44 @@
 
 
 
-    <!-- CODIGO NECESSARIO PARA CORRER O JAVASCRIPT -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+  <!-- CODIGO NECESSARIO PARA CORRER O JAVASCRIPT -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
     crossorigin="anonymous"></script>
   <script src="js/scripts.js"> </script>
 
 
+
+  <!-- CARROSSEL -->
+  <script>
+    $(document).ready(function () {
+      $('.single-item').slick({
+        slidesToShow: 4,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 2000,
+        responsive:
+          [
+            {
+              breakpoint: 600,
+              settings: {
+                infinite: true,
+                arrows: false,
+                slidesToShow: 2
+              }
+            },
+            {
+              breakpoint: 280,
+              settings: {
+                infinite: true,
+                arrows: true,
+                slidesToShow: 1
+              }
+            }
+          ]
+      });
+    });
+  </script>
 
 
 
