@@ -217,3 +217,9 @@ grid-template-areas:
 
 
 /* ################## */
+.carousel slide_meu {
+  animation: moveToRight 3s linear;
+  transition: 10ms;
+  transform: translateX(300px);
+  background: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+}
