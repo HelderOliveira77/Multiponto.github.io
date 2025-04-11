@@ -223,3 +223,24 @@ grid-template-areas:
   transform: translateX(300px);
   background: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
 }
+
+
+
+
+.wraper {
+  height: auto;
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  overflow: hidden;
+}
+.scroller {
+  display: flex;
+  width: 100%;
+  animation: slidy 6000ms infinite;
+}
+.wraper .scroller img {
+  min-width: calc(100% / 3);
+  flex: 1;
+  padding: 0 .5rem;
+}
