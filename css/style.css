@@ -104,3 +104,104 @@ nav li a:hover{
 
 /* ###################### */
 
+.container_grid_home {
+  display: grid;
+  width: 40%;
+  height: 800px;
+  gap: 15px;
+grid-template-areas: 
+  "item-1 item-2 item-3 item-4 "
+  "item-5 item-6 item-7 item-8"
+  "item-9 item-10 item-11 item-12"
+  "item-13 item-14 item-15 item-16"
+}
+
+
+.item-1 {
+  grid-area: item-1;
+  background: black;
+  opacity: 20%;
+}
+
+.item-2 {
+  grid-area: item-2;
+  background: black;
+  opacity: 20%;
+}
+.item-3 {
+  grid-area: item-3;
+  background: black;
+  opacity: 20%;
+
+}
+.item-4 {
+  grid-area: item-4;
+  background: black;
+  opacity: 20%;
+}
+.item-5 {
+  grid-area: item-5;
+  background: black;
+  opacity: 20%;
+}
+.item-6 {
+  grid-area: item-6;
+  background: black;
+  opacity: 20%;
+}
+.item-7 {
+  grid-area: item-7;
+  background: black;
+  opacity: 20%;
+}
+
+.item-8 {
+  grid-area: item-8;
+  background: black;
+  opacity: 20%;
+}
+.item-9 {
+  grid-area: item-9;
+  background: black;
+  opacity: 20%;
+
+}
+.item-10 {
+  grid-area: item-10;
+  background: black;
+  opacity: 20%;
+}
+.item-11 {
+  grid-area: item-11;
+  background: black;
+  opacity: 20%;
+}
+.item-12 {
+  grid-area: item-12;
+  background: black;
+  opacity: 20%;
+}
+
+.item-13 {
+  grid-area: item-13;
+  background: black;
+  opacity: 20%;
+}
+.item-14 {
+  grid-area: item-14;
+  background: black;
+  opacity: 20%;
+}
+.item-15 {
+  grid-area: item-15;
+  background: black;
+  opacity: 20%;
+}
+.item-16 {
+  grid-area: item-16;
+  background: black;
+  opacity: 20%;
+}
+
+
+/* ################## */
