@@ -236,6 +236,13 @@ nav li a:hover {
   /* background: linear-gradient(120deg, black 100%, #466e83 100%); */
 }
 
+.carousel slide_meu_02 {
+  animation: moveToRight 1.5s linear;
+  transition: 10ms;
+  transform: translateX(100px);
+  /* background: linear-gradient(120deg, black 100%, #466e83 100%); */
+}
+
 
 
 /* ##################### */
