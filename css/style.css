@@ -281,14 +281,33 @@ nav li a:hover {
   
   .logos .logo img {
   height: 200px;
-  width: 300px
+  width: 300px;
+
   }
 
-  .logos .logo_mobile img {
-    height: 200px;
-    width: 200px;
-    border: 5px;
-    border-color: white;
-    }
+
+
+
+.logos_mobile {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap
+  }
   
+  .logos_mobile .logo_mobile{
+  height: 200px;
+  background-size: cover !important
+  }
+  
+  .logos_mobile .logo_mobile img {
+  height: 200px;
+  width: 300px;
+  border: 20px;
+  border-color: white;
+
+  }
+
+
 
