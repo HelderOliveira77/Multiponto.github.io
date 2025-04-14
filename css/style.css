@@ -271,7 +271,8 @@ nav li a:hover {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
-  flex-wrap: wrap
+  flex-wrap: wrap;
+  
   }
   
   .logos .logo{
@@ -283,6 +284,11 @@ nav li a:hover {
   height: 200px;
   width: 300px;
   }
+
+  .logos .logo_mobile img {
+    height: 200px;
+    width: 50px;
+    }
 
 
 
