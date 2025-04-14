@@ -293,12 +293,16 @@ nav li a:hover {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
-  flex-wrap: wrap
+  flex-wrap: wrap;
+border: 10px;
+border-color: white;  
   }
   
   .logos_mobile .logo_mobile{
   height: 200px;
-  background-size: cover !important
+  background-size: cover !important;
+  border: 10px;
+  border-color: white;
   }
   
   .logos_mobile .logo_mobile img {
