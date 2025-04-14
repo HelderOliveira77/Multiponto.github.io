@@ -284,4 +284,11 @@ nav li a:hover {
   width: 300px
   }
 
+  .logos .logo_mobile img {
+    height: 200px;
+    width: 200px;
+    border: 5px;
+    border-color: white;
+    }
+  
 
