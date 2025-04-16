@@ -293,9 +293,14 @@ nav li a:hover {
     }
 
     .hr1 {
-      border: 0;
-      border-top: 4px solid #A4A4A4;
-      background-image: linear-gradient(to right, transparent, #CCC, transparent)
+      border: 0px;
+      border-top: 2px solid #A4A4A4;
+      /* background-image: linear-gradient(to right, transparent, #CCC, transparent) */
+      /* background: black; */
+      /* background: webkit-gradient(linear, 0 0, 100% 0, from(white), to(white), color-stop(50%, black)); */
+      /* background-image: linear-gradient(red, yellow); */
+      
     }
+    
 
 
