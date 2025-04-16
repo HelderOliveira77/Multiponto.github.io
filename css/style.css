@@ -294,8 +294,8 @@ nav li a:hover {
 
     .hr1 {
       border: 0;
-      border-top: 2px solid rgb(137, 136, 136);
+      border-top: 4px solid #A4A4A4;
+      background-image: linear-gradient(to right, transparent, #CCC, transparent)
     }
-
 
 
