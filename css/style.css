@@ -292,16 +292,10 @@ nav li a:hover {
     border-color: white;
     }
 
-.linha_servicos {
-      width: 100%;
-      border: 50px;
-      color: black;
-      /* border-top: 15x solid #000000; */
+    .hr1 {
+      border: 0;
+      border-top: 2px solid rgb(137, 136, 136);
     }
-
-
-
-
 
 
 
