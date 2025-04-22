@@ -299,8 +299,11 @@ nav li a:hover {
       /* background: black; */
       /* background: webkit-gradient(linear, 0 0, 100% 0, from(white), to(white), color-stop(50%, black)); */
       /* background-image: linear-gradient(red, yellow); */
-      
     }
     
+
+    .meia_linha {
+      line-height: 5px;
+    }
 
 
