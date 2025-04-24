@@ -307,3 +307,15 @@ nav li a:hover {
     }
 
 
+    .contorno_produtos {
+      border: 2px groove rgb(246, 246, 246);
+      border-left: 0px;
+      border-right: 0px;
+      border-top: 0px;
+      border-radius: 5px;
+      width: 60%;
+      /* border-bottom: 3px dotted red; */
+    }
+
+
+
