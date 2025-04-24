@@ -312,8 +312,20 @@ nav li a:hover {
       border-left: 0px;
       border-right: 0px;
       border-top: 0px;
-      border-radius: 5px;
+      border-radius: 2px;
       width: 60%;
+      background-color: rgb(250, 250, 250);
+      /* border-bottom: 3px dotted red; */
+    }
+
+    .contorno_produtos_v2 {
+      border: 2px groove rgb(246, 246, 246);
+      border-left: 0px;
+      border-right: 0px;
+      border-top: 0px;
+      border-radius: 2px;
+      width: 60%;
+      /* background-color: rgb(250, 250, 250); */
       /* border-bottom: 3px dotted red; */
     }
 
