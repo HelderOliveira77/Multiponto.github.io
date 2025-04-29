@@ -56,6 +56,19 @@
     width: 170px; */
 }
 
+.botao_orçamento_maior {
+  background-color: black;
+  opacity: 80%;
+  color: white;
+  align-content: center;
+  align-items: center;
+  border-radius: 10px;
+  width: 40%;
+  height: 55px;
+  /* height: 33px;
+    width: 170px; */
+}
+
 .botao_orçamento_mobile {
   background-color: black;
   color: white;
@@ -312,6 +325,16 @@ nav li a:hover {
       border-left: 0px;
       border-right: 0px;
       border-top: 0px;
+      border-radius: 2px;
+      width: 60%;
+      background-color: rgb(250, 250, 250);
+      /* border-bottom: 3px dotted red; */
+    }
+
+    .contorno_produtos_cima_baixo {
+      border: 2px groove rgb(246, 246, 246);
+      border-left: 0px;
+      border-right: 0px;
       border-radius: 2px;
       width: 60%;
       background-color: rgb(250, 250, 250);
