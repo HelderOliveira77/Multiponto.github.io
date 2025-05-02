@@ -285,12 +285,16 @@ nav li a:hover {
   display: flex;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
+
   
   }
   
   .logos .logo{
   height: 200px;
-  background-size: cover !important
+  background-size: cover !important;
+  -webkit-transition: all 0.7s ease;
+ transition: all 6s ease;
+
   }
   
   .logos .logo img {
