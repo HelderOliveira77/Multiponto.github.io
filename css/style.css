@@ -81,10 +81,42 @@
     width: 170px; */
 }
 
+.botao_orçamento_fundo {
+  background-color: white;
+  color: black;
+  align-content: center;
+  align-items: center;
+  border-radius: 10px;
+  border-style:groove;
+  border-color: black;
+  width: 40%;
+  height: 55px;
+  /* height: 33px;
+    width: 170px; */
+}
+
+.botao_orçamento_mobile_fundo {
+  background-color: white;
+  color: black;
+  align-content: center;
+  align-items: center;
+  border-radius: 10px;
+  width: 40%;
+  height: 40px;
+  /* height: 33px;
+    width: 170px; */
+}
+
+
 .sem_link {
   text-decoration: none;
   color: black;
 }
+
+
+
+
+
 
 
 
