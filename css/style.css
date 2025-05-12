@@ -422,3 +422,14 @@ nav li a:hover {
 
 
 
+details {
+  height: auto;
+  overflow: hidden;
+  transition: max-height ease-in-out;
+  transition-duration: var(--duration, 0.3s);
+}
+
+summary {
+  cursor: pointer;
+}
+
