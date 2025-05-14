@@ -433,3 +433,47 @@ summary {
   cursor: pointer;
 }
 
+
+
+
+
+
+/* Estilização do conteúdo */
+/* .content {
+  padding: 20px;
+} */
+
+/* Estilização do footer */
+/* .footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #333;
+  color:red;
+  text-align: center;
+  padding: 15px 0;
+  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+} */
+
+/* Estilização do conteúdo do footer */
+/* .footer-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+} */
+
+/* Estilização da navegação do footer */
+/* .footer-nav {
+  margin-top: 10px;
+} */
+
+/* .footer-nav a {
+  color: black;
+  text-decoration: none;
+  margin: 0 10px;
+} */
+
+/* .footer-nav a:hover {
+  text-decoration: underline;
+} */
