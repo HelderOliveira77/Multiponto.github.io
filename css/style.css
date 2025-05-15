@@ -416,10 +416,7 @@ nav li a:hover {
 
 
 
-
 /* ________________ */
-
-
 
 
 details {
@@ -433,11 +430,7 @@ summary {
   cursor: pointer;
 }
 
-
-
-
-
-
+/* PARA O TESTE DO RODAPÉ */
 /* Estilização do conteúdo */
 /* .content {
   padding: 20px;
@@ -477,3 +470,249 @@ summary {
 /* .footer-nav a:hover {
   text-decoration: underline;
 } */
+
+
+/* .container_portfolio {
+  width: 60%;
+  margin: 2rem auto; 
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: repeat(8, 5vw);
+  grid-gap: 1.5rem; 
+}
+
+.gallery__img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block; 
+}
+
+.gallery__item--1 {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+
+.gallery__item--2 {
+  grid-column-start: 3;
+  grid-column-end: 5;
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+
+.gallery__item--3 {
+  grid-column-start: 5;
+  grid-column-end: 9;
+  grid-row-start: 1;
+  grid-row-end: 6;
+}
+
+.gallery__item--4 {
+  grid-column-start: 1;
+  grid-column-end: 5;
+  grid-row-start: 3;
+  grid-row-end: 6;
+}
+
+.gallery__item--5 {
+  grid-column-start: 1;
+  grid-column-end: 5;
+  grid-row-start: 6;
+  grid-row-end: 9;
+}
+
+.gallery__item--6 {
+  grid-column-start: 5;
+  grid-column-end: 9;
+  grid-row-start: 6;
+  grid-row-end: 9;
+} */
+
+
+/* ______________ */
+/* .crossfade>figure {
+  animation: imageAnimation 12s linear infinite 0s;
+  backface-visibility: hidden;
+  background-size: cover;
+  background-position: center center;
+  color: transparent;
+  height: 100%;
+  left: 0px;
+  opacity: 0;
+  position:relative;
+  top: 0px;
+  width: 100%;
+  z-index: 0;
+}
+
+.crossfade {
+  height: 600px;
+  width: 100%;
+}
+
+.crossfade>figure:nth-child(1) {
+  background-image: url('/Users/Mac7/Documents/GitHub/Multiponto.github.io/wp-content/Portfolio/Mosaico_01.png');
+}
+
+.crossfade>figure:nth-child(2) {
+  animation-delay: 4s;
+  background-image: url('/Users/Mac7/Documents/GitHub/Multiponto.github.io/wp-content/Produtos/Embalagens_04.png');
+}
+
+.crossfade>figure:nth-child(3) {
+  animation-delay: 8s;
+  background-image: url('/Users/Mac7/Documents/GitHub/Multiponto.github.io/wp-content/Produtos/Embalagens_03.png');
+}
+
+@keyframes imageAnimation {
+  0% {
+    animation-timing-function: ease-in;
+    opacity: 0;
+  }
+  8% {
+    animation-timing-function: ease-out;
+    opacity: 1;
+  }
+  17% {
+    opacity: 1
+  }
+  25% {
+    opacity: 0
+  }
+  100% {
+    opacity: 0
+  }
+} */
+/* ______________ */
+
+.slideshow-container {
+    
+  width: 100%;
+  position: relative;
+  margin: auto;
+
+}
+
+.slideshow {
+  display: none;
+}
+
+
+.slideshow img { width:100%; }
+
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 4s ease;
+  border-radius: 0 3px 3px 0;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+
+.legenda {
+
+  width: auto;
+  color: #fdfdfd;
+  font-size: 0.9em;
+  padding:5px;
+  position: absolute;
+  bottom: 18%;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.4);
+  left: 10%;
+
+}
+
+.numeracao {
+
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+
+}
+
+.paginacao { 
+
+  width:100%; 
+  float:left;
+  margin: 10px 0;
+  text-align: center;
+
+}
+
+.dot {
+
+  cursor: pointer;
+  height: 13px;
+  width: 13px;
+  margin: 0 4px;
+  border-radius: 50px;
+  background-color: #007cff;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.ativo,
+.dot:hover {
+  background-color: #242424;
+}
+
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 4s;
+  animation-name: fade;
+  animation-duration: 4s;
+}
+
+@-webkit-keyframes fade {
+  from {
+      opacity: .4;
+  }
+  to {
+      opacity: 1;
+  }
+}
+
+@keyframes fade {
+  from {
+      opacity: .4;
+  }
+  to {
+      opacity: 1;
+  }
+}
+
+/*960PX BREAKPOINT - Ajustando o texto para desktop*/
+@media (min-width:60em){
+
+
+  .legenda   { font-size:2em; padding:8px; }
+  .paginacao { margin:20px 0; }
+  .dot       { width:18px; height:18px; }
+}
+
