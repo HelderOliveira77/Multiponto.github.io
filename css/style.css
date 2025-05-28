@@ -591,3 +591,36 @@ summary {
 /* ______________ */
 
 
+
+.wraper {
+  height: auto;
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  overflow: hidden;
+}
+.scroller {
+  display: flex;
+  width: 100%;
+  animation: slidy 6000ms infinite;
+}
+.wraper .scroller img {
+  min-width: calc(100% / 3);
+  flex: 1;
+  padding: 0 .5rem;
+}
+@keyframes slidy {
+ 0%{margin-left:0%;}
+20%{margin-left:0%;}
+
+25%{margin-left:-100%;}
+45%{margin-left:-100%;}
+
+50%{margin-left:-200%;}
+70%{margin-left:-200%;}
+
+75%{margin-left:-100%;}
+95%{margin-left:-100%;}
+
+100%{margin-left:0%;}
+}
