@@ -646,7 +646,7 @@ summary {
   min-width: calc(100% / 1);
   flex: 1;
   padding: 0rem;
-  width: 120px;
+  width: 100px;
   height: 350px;
   /* border-radius: 40px; */
 }
