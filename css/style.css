@@ -602,7 +602,7 @@ summary {
 .scroller {
   display: flex;
   width: 100%;
-  animation: slidy 20000ms infinite;
+  animation: slidy1 20000ms infinite;
 }
 .wraper .scroller img {
   min-width: calc(100% / 3);
@@ -613,7 +613,7 @@ summary {
   border-radius: 40px;
   
 }
-@keyframes slidy {
+@keyframes slidy1 {
  0%{margin-left:0%;}
 20%{margin-left:0%;}
 
