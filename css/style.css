@@ -594,7 +594,7 @@ summary {
 
 .wraper {
   height: auto;
-  width: 80%;
+  width: 100%;
   margin: 0 auto;
   display: flex;
   overflow: hidden;
@@ -608,8 +608,8 @@ summary {
   min-width: calc(100% / 3);
   flex: 1;
   padding: 2rem;
-  width: 300px;
-  height: 250px;
+  /* width: 300px;
+  height: 250px; */
   border-radius: 40px;
   
 }
