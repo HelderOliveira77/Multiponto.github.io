@@ -631,7 +631,7 @@ summary {
 
 /* 1 IMAGEM */
 .wraper_1_img {
-  height: 40%;
+  height: auto;
   width: 40%;
   margin: 0 auto;
   display: flex;
@@ -688,10 +688,10 @@ summary {
 }
 
 
-/* 1 IMAGEM MAIS LENTO IMAGEM */
+/* 2 IMAGEM MAIS LENTO IMAGEM */
 .wraper_2_img {
   height: auto;
-  width: 50%;
+  width: 40%;
   margin: 0 auto;
   display: flex;
   overflow: hidden;
@@ -705,8 +705,8 @@ summary {
   min-width: calc(100% / 1);
   flex: 1;
   padding: 0rem;
-  width: 120px;
-  height: 350px;
+  /* width: 120px;
+  height: 350px; */
   /* border-radius: 40px; */
 }
 
