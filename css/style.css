@@ -631,8 +631,8 @@ summary {
 
 /* 1 IMAGEM */
 .wraper_1_img {
-  height: 100%;
-  width: 100%;
+  height: 40%;
+  width: 40%;
   margin: 0 auto;
   display: flex;
   overflow: hidden;
@@ -690,8 +690,8 @@ summary {
 
 /* 1 IMAGEM MAIS LENTO IMAGEM */
 .wraper_2_img {
-  height: 100%;
-  width: 100%;
+  height: auto;
+  width: 50%;
   margin: 0 auto;
   display: flex;
   overflow: hidden;
