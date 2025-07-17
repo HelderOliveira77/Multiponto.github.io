@@ -753,3 +753,20 @@ SITE RESPONSIVO
 _____________________- */
 
 
+.titulo-rigor {
+  text-transform: uppercase;
+  font-size: 1.5rem; /* mobile padrão */
+}
+
+@media (min-width: 768px) {
+  .titulo-rigor {
+    font-size: 50px;
+  }
+}
+
+@media (min-width: 992px) {
+  .titulo-rigor {
+    font-size: 65px;
+  }
+}
+</style>
