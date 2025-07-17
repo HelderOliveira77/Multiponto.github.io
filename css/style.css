@@ -768,6 +768,9 @@ _____________________- */
   .titulo-rigor {
     font-size: 65px;
     letter-spacing: 1px;
+    margin-top: 30px;
+    line-height: 75px;
+    text-align: center;
   }
 }
 
@@ -779,7 +782,7 @@ _____________________- */
 
 @media (min-width: 768px) {
   .titulo-desde {
-    font-size: 20px;
+    font-size: 25px;
   }
 }
 
