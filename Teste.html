@@ -31,7 +31,6 @@
     </div>
   </div>
 </div>
-
 <!-- Logo para desktop (≥ lg) -->
 <div class="d-none d-lg-block container-fluid">
   <div class="d-flex justify-content-between align-items-center py-3 px-4 position-relative">
@@ -44,7 +43,6 @@
     <div style="width:40px;"></div>
   </div>
 </div>
-
   </header>
 
   <!-- NAV MOBILE -->
@@ -77,7 +75,7 @@
 
 
   <!-- NAV DESKTOP -->
-  <nav class="d-none d-lg-block container-fluid  py-3">
+  <!-- <nav class="d-none d-lg-block container-fluid  py-3">
     <ul class="nav justify-content-center">
       <li class="nav-item mx-3">
         <a class="nav-link text-uppercase text-dark"  style="font-size: 16px; letter-spacing: 1px; color:black; text-decoration: none;  border: 0px; text-transform: uppercase; " 
@@ -96,20 +94,88 @@
                   href="Contactos.html">Contactos</a>
       </li>
     </ul>
-  </nav>
+  </nav> -->
+  <div class="container-fluid d-none d-lg-block">
+    <nav style="text-align: center; justify-content: center;">
+      <ul>
+        <li class="dropdown" style="padding-left: 0px; padding-right: 30px;">
+          <a style="font-size: 16px; letter-spacing: 1px; color:black; text-decoration: none;  border: 0px; text-transform: uppercase;"
+            href="SobreNos.html">Sobre nós</a>
+          <div class="dropdown-menu"
+            style="text-decoration: none; border: 0px; background-color: white; opacity: 80%;text-transform: uppercase; color: black; font-size: 13px; ">
+            <a href="SobreNos.html#historia"> A nossa história </a>
+            <a href="SobreNos.html#organizacao">Organização</a>
+            <a href="SobreNos.html#politica">Política de gestão</a>
+            <a href="SobreNos.html#compromisso">Compromisso Cadeia de Custódia (COC)</a>
+            <a href="SobreNos.html#certificacao">Certificação</a>
+          </div>
+        </li>
+        <li class="dropdown" style="padding-left: 30px; padding-right: 30px;">
+          <a style="font-size: 16px; letter-spacing: 1px; color:black; text-decoration: none;  border: 0px; text-transform: uppercase;"
+            href="Servicos.html">Serviços</a>
+          <div class="dropdown-menu"
+            style="text-decoration: none; border: 0px; background-color: white; opacity: 80%;text-transform: uppercase; color: black; font-size: 13px; ">
+            <a href="Servicos.html#serv_pre_impressao"> PRÉ-IMPRESSÃO</a>
+            <a href="Servicos.html#serv_impdigital"> IMPRESSÃO DIGITAL</a>
+            <a href="Servicos.html#serv_impoffset">IMPRESSÃO OFFSET</a>
+            <a href="Servicos.html#serv_rotativa">ROTATIVA</a>
+            <a href="Servicos.html#serv_rotulos">RÓTULOS E ETIQUETAS</a>
+            <a href="Servicos.html#serv_embalagens">EMBALAGENS</a>
+            <a href="Servicos.html#serv_acab"> ACABAMENTOS</a>
+            <a href="Servicos.html#serv_montagem_aplicacoes"> MONTAGENS E APLICAÇÕES</a>
+          </div>
+        </li>
+        <li class="dropdown" style="padding-left: 30px; padding-right: 30px;">
+          <a style="font-size: 16px; letter-spacing: 1px; color:black; text-decoration: none;  border: 0px; text-transform: uppercase;"
+            href="Produtos.html">Produtos</a>
+          <div class="dropdown-menu"
+            style="text-decoration: none; border: 0px; background-color: white; opacity: 80%;text-transform: uppercase; color: black; font-size: 13px; ">
+            <a href="Produtos.html#prod_livros">Livros | Catálogos | Revistas | Jornais</a>
+            <a href="Produtos.html#prod_folhetos">Folhetos | Cartazes | Flyers| Cartões</a>
+            <a href="Produtos.html#prod_etiquetas">Rótulos | Etiquetas | Autocolantes</a>
+            <a href="Produtos.html#prod_lonas">Lonas | Vinis | Displays | Telas | Montras</a>
+            <a href="Produtos.html#prod_embalagens">Embalagens</a>
+          </div>
+        </li>
+        <li class="dropdown" style="padding-left: 30px; padding-right: 60px;">
+          <a style="font-size: 16px; letter-spacing: 1px; color:black; text-decoration: none;  border: 0px; text-transform: uppercase;"
+            href="Contactos.html">Contactos</a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+
+
+
 
   <!-- VIDEO SECTION -->
-  <section class="container-fluid text-center py-5 position-relative">
-    <video class="w-100 d-none d-lg-block" autoplay loop muted playsinline style="object-fit: cover; opacity: 0.4;">
-      <source src="wp-content/Sequence 01_Desktop_v5.mp4" type="video/mp4">
-    </video>
-    <video class="w-100 d-lg-none" autoplay loop muted playsinline>
-      <source src="wp-content/Sequence 01_Desktop_v5.mp4" type="video/mp4">
-    </video>
-    <div class="position-absolute top-50 start-50 translate-middle">
-      <h1 class="text-white display-6">Bem-vindo à MULTIPONTO</h1>
+  <section class="container-fluid text-center py-3 position-relative">
+  
+    <!-- Wrapper do vídeo com largura/altura controladas -->
+    <div class="mx-auto rounded-4 shadow overflow-hidden" style="max-width: 1800px; max-height: 1000px; position: relative;">
+      
+      <!-- Vídeo Desktop -->
+      <video class="d-none d-lg-block w-100 h-100" autoplay loop muted playsinline
+             style="object-fit: cover; opacity: 0.4;">
+        <source src="wp-content/Sequence 01_Desktop_v5.mp4" type="video/mp4">
+      </video>
+  
+      <!-- Vídeo Mobile -->
+      <video class="d-lg-none w-100 h-100" autoplay loop muted playsinline
+             style="object-fit: cover; opacity: 0.4;">
+        <source src="wp-content/Sequence 01_Desktop_v5.mp4" type="video/mp4">
+      </video>
+  
+      <!-- Texto centralizado dentro do vídeo -->
+      <div class="position-absolute top-50 start-50 translate-middle">
+        <h1 class="text-white display-6">Bem-vindo à MULTIPONTO</h1>
+      </div>
+  
     </div>
+  
   </section>
+
+
 
   <!-- APRESENTAÇÃO -->
   <section class="container text-center py-5">
