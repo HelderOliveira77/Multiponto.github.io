@@ -20,9 +20,19 @@
 
 <body>
   <!-- HEADER -->
-  <header class="container-fluid">
+  <header>
+<!-- MOBILE -->
+    <div class="container-fluid d-lg-none p-3 ">    
+      <div class="row" style="justify-content: center; margin-top: 10px;">
+        <a href="index.html" target="_blank">
+          <img src="wp-content/logo multiponto_pequeno.png" width="auto" height="100"
+            style="align-items: center; align-content: center;" />
+      </div>
+    </div>
+
+    <!-- DESKTOP -->
+    <div class="d-none d-lg-block" >
     <div class="d-flex justify-content-between align-items-center py-3 px-4 position-relative">
-      
       <!-- Espaço vazio para simetria -->
       <div style="width:40px;"></div>
       
@@ -30,22 +40,9 @@
       <a href="index.html" class="mx-auto">
         <img src="wp-content/logo multiponto_pequeno.png" alt="Logo" height="70">
       </a>
-
-      <!-- Botão de menu à direita -->
-      <!-- <button class="navbar-toggler d-lg-none mx-auto" type="button" data-bs-toggle="collapse" data-bs-target="#mobileMenu" aria-controls="mobileMenu" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-  
     </div>
-  
-    <div class="collapse d-lg-none" id="mobileMenu">
-      <nav class="nav flex-column text-center">
-        <a class="nav-link text-uppercase text-secondary fs-5" href="SobreNos.html">Sobre nós</a>
-        <a class="nav-link text-uppercase text-secondary fs-5" href="Servicos.html">Serviços</a>
-        <a class="nav-link text-uppercase text-secondary fs-5" href="Produtos.html">Produtos</a>
-        <a class="nav-link text-uppercase text-secondary fs-5" href="Contactos.html">Contactos</a>
-      </nav>
-    </div> -->
+    </div>
+
 
   </header>
 
