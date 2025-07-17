@@ -760,7 +760,7 @@ _____________________- */
 
 @media (min-width: 768px) {
   .titulo-rigor {
-    font-size: 40px;
+    font-size: 45px;
   }
 }
 
@@ -785,7 +785,7 @@ _____________________- */
 
 @media (min-width: 992px) {
   .titulo-desde {
-    font-size: 26px;
+    font-size: 25px;
     letter-spacing: 1px;
     line-height: 50px;
   }
