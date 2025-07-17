@@ -755,18 +755,39 @@ _____________________- */
 
 .titulo-rigor {
   text-transform: uppercase;
-  font-size: 1.5rem; /* mobile padrão */
+  font-size:40px; /* mobile padrão */
 }
 
 @media (min-width: 768px) {
   .titulo-rigor {
-    font-size: 45px;
+    font-size: 40px;
   }
 }
 
 @media (min-width: 992px) {
   .titulo-rigor {
     font-size: 65px;
+    letter-spacing: 1px;
   }
 }
-</style>
+
+
+.titulo-desde {
+  text-transform: uppercase;
+  font-size:20px; /* mobile padrão */
+}
+
+@media (min-width: 768px) {
+  .titulo-desde {
+    font-size: 20px;
+  }
+}
+
+@media (min-width: 992px) {
+  .titulo-desde {
+    font-size: 26px;
+    letter-spacing: 1px;
+    line-height: 50px;
+  }
+}
+
