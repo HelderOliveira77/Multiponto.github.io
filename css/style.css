@@ -808,3 +808,9 @@ _____________________- */
   }
 }
 
+@media (max-width: 575.98px) {
+  .btn-mobile {
+    font-size: 18px !important;
+  }
+}
+
