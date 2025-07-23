@@ -646,9 +646,6 @@ summary {
   min-width: calc(100% / 1);
   flex: 1;
   padding: 0rem;
-  /* width: 100px;
-  height: 350px; */
-  /* border-radius: 40px; */
 }
 
 @keyframes slidy {
@@ -813,4 +810,80 @@ _____________________- */
     font-size: 18px !important;
   }
 }
+
+
+
+/* PRODUTOS EFEITOS */
+/* Estilos para o card principal */
+.product-card {
+  width: 100%; /* Define que o card ocupe 60% da largura do elemento pai */
+  margin: 0 auto; /* Centraliza o card horizontalmente */
+  border: 0px;
+}
+
+/* Estilos para a lista */
+.product-list {
+  list-style: none;
+  position: relative;
+  left: -20px; /* Ajuste ou remova se não for necessário */
+}
+
+/* Estilos para o título */
+.product-title {
+  margin-bottom: 40px;
+  font-weight: 100;
+  font-size: clamp(30px, 5vw, 60px);
+  letter-spacing: 3px;
+  opacity: 0.15;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+/* Estilos para as imagens dentro do slider */
+.slider-imagens img {
+  width: 100%;
+  height: auto; /* Altura fixa para as imagens, ajuste conforme necessário */
+  object-fit: contain; /* Para garantir que as imagens cabem sem cortar */
+  padding: 5px; /* Espaçamento entre as imagens no slider */
+  border-radius: 0px; /* Bordas arredondadas */
+
+  transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+  transform: scale(0.5); /* Imagens que não estão no centro começam ligeiramente menores */
+  opacity: 0.4; /* Imagens que não estão no centro ficam com 40% de opacidade */
+}
+
+/* ESTILO CHAVE: Efeito para a imagem ativa (no centro) */
+.slick-center img {
+  opacity: 1; /* A imagem do centro fica totalmente visível */
+  transform: scale(1.10); /* Aumenta a imagem do centro em 5% */
+  /* Pode ajustar para 1.1 ou 1.2 para um efeito mais dramático */
+}
+
+/* TIRAR AS SETAS DE NAVEGAÇÃO */
+/* Estilos para as setas de navegação */
+/* .slick-prev:before,
+.slick-next:before {
+  color:#A4A4A4 !important;
+  font-size: 24px !important;
+} */
+
+/* .slick-prev {
+  left: -150px; 
+}
+
+.slick-next {
+  right: -150px; 
+} */
+
+/* Ajustes responsivos para o slider */
+@media (max-width: 768px) {
+  .product-card {
+    width: 95%; /* Em telas menores, ocupe mais largura para melhor visualização */
+    margin: 0 auto;
+  }
+  .slider-imagens img {
+    height: 180px; /* Ajusta a altura da imagem para dispositivos móveis */
+  }
+}
+
 

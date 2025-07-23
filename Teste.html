@@ -16,415 +16,154 @@
 
 
 
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"/>
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"/>
+<link rel="stylesheet" type="text/css" href="seu-estilo.css"/>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+<script src="seu-script.js"></script>
+
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"/>
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"/>
+<link rel="stylesheet" type="text/css" href="seu-estilo.css"/>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+<script src="seu-script.js"></script>
+
+
 </head>
 
 <body>
-  <!-- HEADER -->
-  <header>
-<!-- Logo para mobile (aparece em < lg) -->
-<div class="d-lg-none container-fluid p-3">
-  <div class="row justify-content-center mt-2">
-    <div class="col-auto text-center">
-      <a href="index.html">
-        <img src="wp-content/logo multiponto_pequeno.png" alt="Logo" class="img-fluid logo-header" style="max-height: 90px;">
-      </a>
-    </div>
-  </div>
-</div>
-<!-- Logo para desktop (≥ lg) -->
-<div class="d-none d-lg-block container-fluid">
-  <div class="d-flex justify-content-between align-items-center py-3 px-4 position-relative">
-    <div style="width:40px;"></div> <!-- Espaço para simetria -->
-    
-    <a href="index.html" class="mx-auto">
-      <img src="wp-content/logo multiponto_pequeno.png" alt="Logo" class="img-fluid logo-header" style="max-height: 70px;">
-    </a>
-    
-    <div style="width:40px;"></div>
-  </div>
-</div>
-  </header>
-
-  <!-- NAV MOBILE -->
-  <div class="container-fluid d-lg-none p-3 ">
-    <div class="nav justify-content-center" style="margin-top: 20px;">
-      <button type="button" class="btn btn-outline-secondary" style="border: 0px;">
-        <a href="SobreNos.html"
-          style="font-size: 32px; line-height: 44px; letter-spacing: 1px; color:#A4A4A4; text-decoration: none; vertical-align: top; border: 0px; text-transform: uppercase;  ">
-          Sobre nós</a> </button>
-    </div>
-    <div class="nav justify-content-center">
-      <button type="button" class="btn btn-outline-secondary" style="border: 0px;">
-        <a href="Servicos.html"
-          style="font-size: 32px; line-height: 44px; letter-spacing: 1px; color:#A4A4A4; text-decoration: none; vertical-align: top; border: 0px; text-transform: uppercase;">
-          Serviços</a> </button>
-    </div>
-    <div class="nav justify-content-center">
-      <button type="button" class="btn btn-outline-secondary" style="border: 0px;">
-        <a href="Produtos.html"
-          style="font-size: 32px; line-height: 44px; letter-spacing: 1px; color:#A4A4A4; text-decoration: none; vertical-align: top; border: 0px; text-transform: uppercase;">
-          Produtos</a> </button>
-    </div>
-    <div class="nav justify-content-center">
-      <button type="button" class="btn btn-outline-secondary" style="border: 0px;">
-        <a href="Contactos.html"
-          style="font-size: 32px; line-height: 44px; letter-spacing: 1px; color:#A4A4A4; text-decoration: none; vertical-align: top; border: 0px; text-transform: uppercase; ">
-          Contactos</a> </button>
-    </div>
-  </div>
-
-
-  <!-- NAV DESKTOP -->
-  <!-- <nav class="d-none d-lg-block container-fluid  py-3">
-    <ul class="nav justify-content-center">
-      <li class="nav-item mx-3">
-        <a class="nav-link text-uppercase text-dark"  style="font-size: 16px; letter-spacing: 1px; color:black; text-decoration: none;  border: 0px; text-transform: uppercase; " 
-                  href="SobreNos.html">Sobre nós</a>
+ 
+  <div class="card product-card">
+    <ul class="list-group list-group-flush product-list">
+      <li class="list-group-item_home product-title">
+        PRÉ-IMPRESSÃO
       </li>
-      <li class="nav-item mx-3">
-        <a class="nav-link text-uppercase text-dark"  style="font-size: 16px; letter-spacing: 1px; color:black; text-decoration: none;  border: 0px; text-transform: uppercase; "
-                  href="Servicos.html">Serviços</a>
-      </li>
-      <li class="nav-item mx-3">
-        <a class="nav-link text-uppercase text-dark"  style="font-size: 16px; letter-spacing: 1px; color:black; text-decoration: none;  border: 0px; text-transform: uppercase; "
-                  href="Produtos.html">Produtos</a>
-      </li>
-      <li class="nav-item mx-3">
-        <a class="nav-link text-uppercase text-dark" style="font-size: 16px; letter-spacing: 1px; color:black; text-decoration: none;  border: 0px; text-transform: uppercase; "
-                  href="Contactos.html">Contactos</a>
+      <li>
+        <div class="slider-imagens">
+          <div><img src="wp-content/Home/ImpressaoDigital_08.png" alt="Impressão Digital 08"></div>
+          <div><img src="wp-content/Home/PreImpressao_01.png" alt="Pré-Impressão 01"></div>
+          <div><img src="wp-content/Home/PreImpressao_08.png" alt="Pré-Impressão 08"></div>
+          <div><img src="wp-content/Home/PreImpressao_06.png" alt="Pré-Impressão 06"></div>
+          <div><img src="wp-content/Home/PreImpressao_04.png" alt="Pré-Impressão 04"></div>
+          <div><img src="wp-content/Home/PreImpressao_10.png" alt="Pré-Impressão 10"></div>
+          <div><img src="wp-content/Home/PreImpressao_07.png" alt="Pré-Impressão 07"></div>
+          <div><img src="wp-content/Home/PreImpressao_03.png" alt="Pré-Impressão 03"></div>
+          <div><img src="wp-content/Home/PreImpressao_09.png" alt="Pré-Impressão 09"></div>
+        </div>
       </li>
     </ul>
-  </nav> -->
-  <div class="container-fluid d-none d-lg-block">
-    <nav style="text-align: center; justify-content: center;">
-      <ul>
-        <li class="dropdown" style="padding-left: 0px; padding-right: 30px;">
-          <a style="font-size: 16px; letter-spacing: 1px; color:black; text-decoration: none;  border: 0px; text-transform: uppercase;"
-            href="SobreNos.html">Sobre nós</a>
-          <div class="dropdown-menu"
-            style="text-decoration: none; border: 0px; background-color: white; opacity: 80%;text-transform: uppercase; color: black; font-size: 13px; ">
-            <a href="SobreNos.html#historia"> A nossa história </a>
-            <a href="SobreNos.html#organizacao">Organização</a>
-            <a href="SobreNos.html#politica">Política de gestão</a>
-            <a href="SobreNos.html#compromisso">Compromisso Cadeia de Custódia (COC)</a>
-            <a href="SobreNos.html#certificacao">Certificação</a>
-          </div>
-        </li>
-        <li class="dropdown" style="padding-left: 30px; padding-right: 30px;">
-          <a style="font-size: 16px; letter-spacing: 1px; color:black; text-decoration: none;  border: 0px; text-transform: uppercase;"
-            href="Servicos.html">Serviços</a>
-          <div class="dropdown-menu"
-            style="text-decoration: none; border: 0px; background-color: white; opacity: 80%;text-transform: uppercase; color: black; font-size: 13px; ">
-            <a href="Servicos.html#serv_pre_impressao"> PRÉ-IMPRESSÃO</a>
-            <a href="Servicos.html#serv_impdigital"> IMPRESSÃO DIGITAL</a>
-            <a href="Servicos.html#serv_impoffset">IMPRESSÃO OFFSET</a>
-            <a href="Servicos.html#serv_rotativa">ROTATIVA</a>
-            <a href="Servicos.html#serv_rotulos">RÓTULOS E ETIQUETAS</a>
-            <a href="Servicos.html#serv_embalagens">EMBALAGENS</a>
-            <a href="Servicos.html#serv_acab"> ACABAMENTOS</a>
-            <a href="Servicos.html#serv_montagem_aplicacoes"> MONTAGENS E APLICAÇÕES</a>
-          </div>
-        </li>
-        <li class="dropdown" style="padding-left: 30px; padding-right: 30px;">
-          <a style="font-size: 16px; letter-spacing: 1px; color:black; text-decoration: none;  border: 0px; text-transform: uppercase;"
-            href="Produtos.html">Produtos</a>
-          <div class="dropdown-menu"
-            style="text-decoration: none; border: 0px; background-color: white; opacity: 80%;text-transform: uppercase; color: black; font-size: 13px; ">
-            <a href="Produtos.html#prod_livros">Livros | Catálogos | Revistas | Jornais</a>
-            <a href="Produtos.html#prod_folhetos">Folhetos | Cartazes | Flyers| Cartões</a>
-            <a href="Produtos.html#prod_etiquetas">Rótulos | Etiquetas | Autocolantes</a>
-            <a href="Produtos.html#prod_lonas">Lonas | Vinis | Displays | Telas | Montras</a>
-            <a href="Produtos.html#prod_embalagens">Embalagens</a>
-          </div>
-        </li>
-        <li class="dropdown" style="padding-left: 30px; padding-right: 60px;">
-          <a style="font-size: 16px; letter-spacing: 1px; color:black; text-decoration: none;  border: 0px; text-transform: uppercase;"
-            href="Contactos.html">Contactos</a>
-        </li>
-      </ul>
-    </nav>
   </div>
 
 
-  <!-- VIDEO SECTION -->
-  <section class="container-fluid text-center py-3 position-relative">
-  
-    <!-- Wrapper do vídeo com largura/altura controladas -->
-    <div class="mx-auto rounded-2  overflow-hidden" style="max-width: 65%; position: relative;">
-      
-      <!-- Vídeo Desktop -->
-      <video class="d-none d-lg-block w-100 h-100" autoplay loop muted playsinline
-             style="object-fit: cover; opacity: 0.6;">
-        <source src="wp-content/Sequence 01_Desktop_v5.mp4" type="video/mp4">
-      </video>
-  
-      <!-- Vídeo Mobile -->
-      <video class="d-lg-none w-100 h-100" autoplay loop muted playsinline
-             style="object-fit: cover; opacity: 0.8; margin-bottom: 30px;">
-        <source src="wp-content/Sequence 01_Desktop_v5.mp4" type="video/mp4">
-      </video>
-  
-      <!-- Texto centralizado dentro do vídeo -->
-      <div class="position-absolute top-50 start-50 translate-middle">
-        <h1 class="text-white display-6">Bem-vindo à MULTIPONTO</h1>
-      </div>
-  
-    </div>
-  
-  </section>
-
-
-
-  <!-- APRESENTAÇÃO -->
-  <section class="container text-center py-2">
-    <h2 class="titulo-rigor" > RIGOR, EXIGÊNCIA E INOVAÇÃO</h2>
-    <p class="titulo-desde" style="text-align: center; text-transform: uppercase;"  > Desde 1974, dedicando-se às artes gráficas.</p>
-    <a href="Formulario_Orcamento.html" class="btn btn-dark btn-lg rounded-3 mt-10 py-2 my-5" style="min-width: 300px; font-size: 17px; letter-spacing: 0.5px;" >PEDIR ORÇAMENTO</a>
-  </section>
-
-  
-
-  <!-- SERVIÇOS EXEMPLO -->
-  <section class="container py-5">
-    <div class="row d-flex flex-row justify-content-center">
-
-      <div class="col-auto mb-2 mx-2">
-        <p> <a href="Servicos.html#serv_pre_impressao" target="" aria-current="" class="sem_link" style="margin-bottom: 0px;font-weight: 100; font-size: 24px; letter-spacing: 1px;  ">
-          › IMPRESSÃO DIGITAL 
-          </a>
-        </p>
-        <a href="Servicos.html#serv_impdigital">
-          <img src="wp-content/Home/ImpressaoDigital_01.png" class="img-fluid mb-2" alt="Impressão Digital">
-        </a>
-      </div>
-      <div class="col-auto mb-2 mx-2">
-        <p> <a href="Servicos.html#serv_pre_impressao" target="" aria-current="" class="sem_link" style="margin-bottom: 0px;font-weight: 100; font-size: 24px; letter-spacing: 1px;  ">
-          › IMPRESSÃO DIGITAL 
-          </a>
-        </p>
-        <a href="Servicos.html#serv_impdigital">
-          <img src="wp-content/Home/ImpressaoDigital_01.png" class="img-fluid mb-2" alt="Impressão Digital">
-        </a>
-      </div>
-      <div class="col-auto mb-2 mx-2">
-        <p> <a href="Servicos.html#serv_pre_impressao" target="" aria-current="" class="sem_link" style="margin-bottom: 0px;font-weight: 100; font-size: 24px; letter-spacing: 1px;  ">
-          › IMPRESSÃO OFFSET 
-          </a>
-        </p>
-        <a href="Servicos.html#serv_impoffset">
-          <img src="wp-content/Home/ImpressaoOffSet_01.png" class="img-fluid mb-2" alt="Offset">
-          
-        </a>
-      </div>
-    </div>
-  </section>
-
-  <!-- PORTFÓLIO -->
-  <section class="container text-center py-5">
-    <h2 class="display-6 mb-4">PORTFÓLIO</h2>
-    <div id="carouselPortfolio" class="carousel slide" data-bs-ride="carousel">
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img src="wp-content/Portfolio/Mosaico_01.png" class="d-block w-100" alt="Portfolio 1">
-        </div>
-        <div class="carousel-item">
-          <img src="wp-content/Portfolio/Mosaico_02.png" class="d-block w-100" alt="Portfolio 2">
-        </div>
-        <div class="carousel-item">
-          <img src="wp-content/Portfolio/Mosaico_03.png" class="d-block w-100" alt="Portfolio 3">
-        </div>
-      </div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#carouselPortfolio" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon"></span>
-      </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#carouselPortfolio" data-bs-slide="next">
-        <span class="carousel-control-next-icon"></span>
-      </button>
-    </div>
-  </section>
-
-  <!-- FOOTER -->
-  <footer class="bg-black text-white py-5">
-    <div class="container">
-      <div class="row text-center text-lg-start">
-        <div class="col-md-4 mb-4">
-          <p><strong>CONTACTOS</strong><br>Rua da Fábrica, 260<br>4585-013 Baltar Paredes<br>+351 225 193 400</p>
-        </div>
-        <div class="col-md-4 mb-4">
-          <p><strong>INFORMAÇÃO</strong><br>
-            <a href="Política de Privacidade.html" class="text-white text-decoration-none">Política de Privacidade</a><br>
-            <a href="Política de Cookies.html" class="text-white text-decoration-none">Política de Cookies</a><br>
-            <a href="Condicoes Gerais de Venda.html" class="text-white text-decoration-none">Condições Gerais de Venda</a>
-          </p>
-        </div>
-        <div class="col-md-4 mb-4">
-          <p><strong>SOCIAL</strong><br>
-            <a href="https://www.facebook.com/profile.php?id=61575876675638" class="text-white">Facebook</a><br>
-            <a href="https://www.instagram.com/_multiponto/" class="text-white">Instagram</a>
-          </p>
-        </div>
-      </div>
-      <div class="text-center mt-3">
-        <small>&copy; <script>document.write(new Date().getFullYear())</script> Multipontos, S.A.</small>
-      </div>
-    </div>
-  </footer>
-
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-  <script src="js/scripts.js"></script>
-
-
-
-
-
-
-  
-
-<!-- Versão responsiva e consistente em todos os tamanhos de ecrã -->
-<div class="container-fluid px-3 py-5">
-  <div class="row justify-content-center g-5">
-
-    <!-- PRÉ-IMPRESSÃO -->
-    <div class="col-12 col-md-6 col-lg-4">
-      <div class="card border-0 text-center">
-        <a href="Servicos.html#serv_pre_impressao" class="text-decoration-none">
-          <p class="fs-5 fw-light">&#8250; PRÉ-IMPRESSÃO</p>
-        </a>
-        <div class="carousel slide" data-bs-ride="carousel">
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <img src="wp-content/Home/ImpressaoDigital_08.png" class="d-block mx-auto rounded-0 fixed-img-size">
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- IMPRESSÃO DIGITAL -->
-    <div class="col-12 col-md-6 col-lg-4">
-      <div class="card border-0 text-center">
-        <a href="Servicos.html#serv_impdigital" class="text-decoration-none">
-          <p class="fs-5 fw-light">&#8250; IMPRESSÃO DIGITAL</p>
-        </a>
-        <div class="carousel slide" data-bs-ride="carousel">
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <img src="wp-content/Home/ImpressaoDigital_01.png" class="d-block mx-auto rounded-0 fixed-img-size">
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- IMPRESSÃO OFFSET -->
-    <div class="col-12 col-md-6 col-lg-4">
-      <div class="card border-0 text-center">
-        <a href="Servicos.html#serv_impoffset" class="text-decoration-none">
-          <p class="fs-5 fw-light">&#8250; IMPRESSÃO OFFSET</p>
-        </a>
-        <div class="carousel slide" data-bs-ride="carousel">
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <img src="wp-content/Home/ImpressaoOffSet_01.png" class="d-block mx-auto rounded-0 fixed-img-size">
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- ROTATIVA -->
-    <div class="col-12 col-md-6 col-lg-4">
-      <div class="card border-0 text-center">
-        <a href="Servicos.html#serv_rotativa" class="text-decoration-none">
-          <p class="fs-5 fw-light">&#8250; ROTATIVA</p>
-        </a>
-        <div class="carousel slide" data-bs-ride="carousel">
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <img src="wp-content/Home/Rotativa_01.png" class="d-block mx-auto rounded-0 fixed-img-size">
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- RÓTULOS E ETIQUETAS -->
-    <div class="col-12 col-md-6 col-lg-4">
-      <div class="card border-0 text-center">
-        <a href="Servicos.html#serv_rotulos" class="text-decoration-none">
-          <p class="fs-5 fw-light">&#8250; RÓTULOS E ETIQUETAS</p>
-        </a>
-        <div class="carousel slide" data-bs-ride="carousel">
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <img src="wp-content/Home/Rotulos_05.png" class="d-block mx-auto rounded-0 fixed-img-size">
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- EMBALAGENS -->
-    <div class="col-12 col-md-6 col-lg-4">
-      <div class="card border-0 text-center">
-        <a href="Servicos.html#serv_embalagens" class="text-decoration-none">
-          <p class="fs-5 fw-light">&#8250; EMBALAGENS</p>
-        </a>
-        <div class="carousel slide" data-bs-ride="carousel">
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <img src="wp-content/Home/Embalagens_16.png" class="d-block mx-auto rounded-0 fixed-img-size">
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- ACABAMENTOS -->
-    <div class="col-12 col-md-6 col-lg-4">
-      <div class="card border-0 text-center">
-        <a href="Servicos.html#serv_acab" class="text-decoration-none">
-          <p class="fs-5 fw-light">&#8250; ACABAMENTOS</p>
-        </a>
-        <div class="carousel slide" data-bs-ride="carousel">
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <img src="wp-content/Home/Acabamentos_07.png" class="d-block mx-auto rounded-0 fixed-img-size">
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- MONTAGENS E APLICAÇÕES -->
-    <div class="col-12 col-md-6 col-lg-4">
-      <div class="card border-0 text-center">
-        <a href="Servicos.html#serv_montagem_aplicacoes" class="text-decoration-none">
-          <p class="fs-5 fw-light">&#8250; MONTAGENS E APLICAÇÕES</p>
-        </a>
-        <div class="carousel slide" data-bs-ride="carousel">
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <img src="wp-content/Home/Montagens_09.png" class="d-block mx-auto rounded-0 fixed-img-size">
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-  </div>
-</div>
 
 <style>
-  .fixed-img-size {
-    width: 85%;
-    height: 250px;
-    object-fit: cover;
-    margin-bottom: 30px;
+/* Estilos para o card principal */
+.product-card {
+  width: 60%; /* Define que o card ocupe 60% da largura do elemento pai */
+  margin: 0 auto; /* Centraliza o card horizontalmente */
+  border: 0px;
+}
+
+/* Estilos para a lista */
+.product-list {
+  list-style: none;
+  position: relative;
+  left: -20px; /* Ajuste ou remova se não for necessário */
+}
+
+/* Estilos para o título */
+.product-title {
+  margin-bottom: 40px;
+  font-weight: 100;
+  font-size: clamp(30px, 5vw, 60px);
+  letter-spacing: 3px;
+  opacity: 0.15;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+/* Estilos para as imagens dentro do slider */
+.slider-imagens img {
+  width: 100%;
+  height: 250px; /* Altura fixa para as imagens, ajuste conforme necessário */
+  object-fit: contain; /* Para garantir que as imagens cabem sem cortar */
+  padding: 10px; /* Espaçamento entre as imagens no slider */
+  border-radius: 10px; /* Bordas arredondadas */
+
+  transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+  transform: scale(0.6); /* Imagens que não estão no centro começam ligeiramente menores */
+  opacity: 0.4; /* Imagens que não estão no centro ficam com 40% de opacidade */
+}
+
+/* ESTILO CHAVE: Efeito para a imagem ativa (no centro) */
+.slick-center img {
+  opacity: 1; /* A imagem do centro fica totalmente visível */
+  transform: scale(1.20); /* Aumenta a imagem do centro em 5% */
+  /* Pode ajustar para 1.1 ou 1.2 para um efeito mais dramático */
+}
+
+/* Estilos para as setas de navegação */
+.slick-prev:before,
+.slick-next:before {
+  color: #333 !important;
+  font-size: 30px !important;
+}
+
+/* Ajustes responsivos para o slider */
+@media (max-width: 768px) {
+  .product-card {
+    width: 95%; /* Em telas menores, ocupe mais largura para melhor visualização */
+    margin: 0 auto;
   }
+  .slider-imagens img {
+    height: 180px; /* Ajusta a altura da imagem para dispositivos móveis */
+  }
+}
+
 </style>
 
 
+
+
+
+<script>
+  $(document).ready(function(){
+  $('.slider-imagens').slick({
+    centerMode: true,       // A imagem do meio fica em destaque
+    centerPadding: '60px',  // Espaçamento à volta da imagem do meio
+    slidesToShow: 3,        // Quantas imagens visíveis (1 no centro e 2 nas laterais)
+    autoplay: true,         // Rolagem automática
+    autoplaySpeed: 3000,    // Velocidade da rolagem (3 segundos)
+    arrows: true,           // Mostrar setas de navegação
+    dots: false,            // Ocultar os pontos de navegação (bolinhas)
+    infinite: true,         // Permite rolagem infinita
+    responsive: [           // Configurações para diferentes tamanhos de tela
+      {
+        breakpoint: 768,    // Em telas até 768px
+        settings: {
+          arrows: false,    // Oculta as setas
+          centerMode: true,
+          centerPadding: '40px',
+          slidesToShow: 1   // Mostra apenas 1 imagem (a central) em telas menores
+        }
+      },
+      {
+        breakpoint: 480,    // Em telas até 480px
+        settings: {
+          arrows: false,
+          centerMode: true,
+          centerPadding: '40px',
+          slidesToShow: 1
+        }
+      }
+    ]
+  });
+});
+</script>
 
 </body>
 
