@@ -908,7 +908,7 @@ _____________________- */
 
 /* Estilo para o título principal */
 .history-title-sm {
-  font-size: 28px; /* Tamanho da fonte para ecrãs pequenos */
+  font-size: 26px; /* Tamanho da fonte para ecrãs pequenos */
   text-align: center;
   letter-spacing: 1px;
   font-weight: bold;
@@ -917,7 +917,7 @@ _____________________- */
 
 /* Estilo para o subtítulo */
 .history-subtitle-sm {
-  font-size: 18px; /* Tamanho da fonte para ecrãs pequenos */
+  font-size: 16px; /* Tamanho da fonte para ecrãs pequenos */
   text-align: center;
   letter-spacing: 1px;
   color: #A4A4A4;
@@ -928,7 +928,7 @@ _____________________- */
 
 /* Estilo para os parágrafos de texto */
 .history-text-block-sm p {
-  font-size: 18px; /* Tamanho da fonte para os parágrafos */
+  font-size: 16px; /* Tamanho da fonte para os parágrafos */
   text-align: justify;
   line-height: 28px; /* Altura da linha para melhor legibilidade */
   margin-bottom: 0.8rem; /* Espaçamento entre parágrafos */
