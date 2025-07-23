@@ -910,7 +910,7 @@ _____________________- */
 .history-title-sm {
   font-size: 26px; /* Tamanho da fonte para ecrãs pequenos */
   text-align: center;
-  letter-spacing: 1px;
+  letter-spacing: 0.5px;
   font-weight: bold;
   margin-bottom: 0px; /* Controla o espaçamento abaixo do título */
 }
@@ -919,7 +919,7 @@ _____________________- */
 .history-subtitle-sm {
   font-size: 16px; /* Tamanho da fonte para ecrãs pequenos */
   text-align: center;
-  letter-spacing: 1px;
+  letter-spacing: 0.25px;
   color: #A4A4A4;
   opacity: 0.8;
   line-height: 1.2;
