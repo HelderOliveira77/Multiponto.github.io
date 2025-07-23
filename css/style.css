@@ -943,5 +943,37 @@ _____________________- */
 }
 
 
+.organization-image-wrapper-sm {
+  /* O padding já é controlado pelas classes pt-4 pb-4 no HTML */
+}
 
+/* Estilo para a imagem do diagrama de organização */
+.organization-diagram-sm {
+  width: 100%; /* A imagem ocupa 100% da largura do seu contêiner de coluna */
+  height: auto; /* Mantém a proporção da imagem */
+}
+
+
+.policy-content-sm {
+  /* O padding já é controlado pelas classes pt-4 pb-4 no HTML */
+}
+
+/* Estilo para os parágrafos de texto */
+.policy-content-sm p {
+  font-size: 16px; /* Tamanho da fonte para os parágrafos */
+  text-align: justify;
+  line-height: 26px; /* Altura da linha para melhor legibilidade */
+  margin-bottom: 0.8rem; /* Espaçamento entre parágrafos */
+}
+
+/* Estilo para as listas dentro dos parágrafos (se houver) */
+.policy-content-sm p strong {
+  font-weight: bold; /* Garante que o negrito se mantém */
+}
+
+.policy-content-sm .certification-codes {
+  font-size: 14px; /* Um pouco menor para os códigos */
+  line-height: 22px;
+  text-align: left; /* Pode ser justificado ou à esquerda */
+}
 
