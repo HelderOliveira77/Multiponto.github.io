@@ -890,5 +890,58 @@ _____________________- */
 
 
 
+/* SOBRE NOS (Responsivo) */
+/* --- ESTILOS PARA ECRÃS PEQUENOS (Mobile, Tablet Retrato) --- */
+
+/* Estilos para a secção principal (container-fluid) */
+.history-section-sm {
+  background-color: rgb(250, 250, 250); /* Fundo cinza claro */
+  margin-top: 0px; /* Garante que não há margem extra no topo */
+  /* Largura controlada pelas classes col-12 col-md-10 no HTML */
+}
+
+/* Estilos para o invólucro do conteúdo dentro da coluna */
+.history-content-wrapper-sm {
+  padding-bottom: 20px; /* Espaçamento na parte inferior do conteúdo */
+  /* O padding-top já está definido pela classe Bootstrap py-4 no HTML */
+}
+
+/* Estilo para o título principal */
+.history-title-sm {
+  font-size: 28px; /* Tamanho da fonte para ecrãs pequenos */
+  text-align: center;
+  letter-spacing: 1px;
+  font-weight: bold;
+  margin-bottom: 0px; /* Controla o espaçamento abaixo do título */
+}
+
+/* Estilo para o subtítulo */
+.history-subtitle-sm {
+  font-size: 18px; /* Tamanho da fonte para ecrãs pequenos */
+  text-align: center;
+  letter-spacing: 1px;
+  color: #A4A4A4;
+  opacity: 0.8;
+  line-height: 1.2;
+  margin-top: 5px; /* Pequena margem acima do subtítulo */
+}
+
+/* Estilo para os parágrafos de texto */
+.history-text-block-sm p {
+  font-size: 18px; /* Tamanho da fonte para os parágrafos */
+  text-align: justify;
+  line-height: 28px; /* Altura da linha para melhor legibilidade */
+  margin-bottom: 0.8rem; /* Espaçamento entre parágrafos */
+}
+
+/* Estilo para a imagem dentro do texto */
+.history-image-sm {
+  width: 100%; /* A imagem ocupa 100% da largura do seu contêiner de coluna */
+  opacity: 0.9;
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+
+
 
 
