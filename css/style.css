@@ -892,3 +892,70 @@ _____________________- */
 
 
 
+
+/* PORTFOLIO */
+/* --- Estilos para Ecrãs Maiores (Desktop, Tablet paisagem) --- */
+.portfolio-section-lg {
+  max-width: 100%; /* Aumentado para 65% (era 60%) */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.portfolio-section-lg #carouselPortfolioLarge {
+  max-height: auto; /* Limite de altura para desktops */
+  overflow: hidden;
+}
+
+.portfolio-section-lg #carouselPortfolioLarge .carousel-item img {
+  height: auto;
+  object-fit: contain;
+}
+
+/* Estilos das setas para o carrossel grande */
+.portfolio-section-lg #carouselPortfolioLarge .carousel-control-prev-icon,
+.portfolio-section-lg #carouselPortfolioLarge .carousel-control-next-icon {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 50%;
+    padding: 20px;
+}
+
+.portfolio-section-lg #carouselPortfolioLarge .carousel-control-prev,
+.portfolio-section-lg #carouselPortfolioLarge .carousel-control-next {
+    width: 5%;
+}
+
+/* --- Estilos para Ecrãs Pequenos (Mobile, Tablet retrato) --- */
+.portfolio-section-sm {
+  max-width: 98%; /* Aumentado para 98% (era 95%) para preencher mais o ecrã */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.portfolio-section-sm #carouselPortfolioSmall {
+  max-height: auto; /* Limite de altura para mobile/tablet */
+  overflow: hidden;
+}
+
+.portfolio-section-sm #carouselPortfolioSmall .carousel-item img {
+  height: auto;
+  object-fit: contain;
+}
+
+/* Estilos das setas para o carrossel pequeno */
+.portfolio-section-sm #carouselPortfolioSmall .carousel-control-prev-icon,
+.portfolio-section-sm #carouselPortfolioSmall .carousel-control-next-icon {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 50%;
+    padding: 15px;
+}
+
+.portfolio-section-sm #carouselPortfolioSmall .carousel-control-prev,
+.portfolio-section-sm #carouselPortfolioSmall .carousel-control-next {
+    width: 8%;
+}
+
+/* --- Estilo para o título (comum a ambos) --- */
+.display-6.mb-4 {
+  font-weight: 600;
+  letter-spacing: 1px;
+}
