@@ -1023,12 +1023,33 @@ _____________________- */
 }
 
 /* Estilos para os controlos do carrossel (setas) */
+#preImpressaoCarouselSmall .carousel-control-prev,
+#preImpressaoCarouselSmall .carousel-control-next {
+  width: auto;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+#preImpressaoCarouselSmall .carousel-control-prev {
+  left: -20px;
+}
+
+#preImpressaoCarouselSmall .carousel-control-next {
+  right: -20px;
+}
+
 #preImpressaoCarouselSmall .carousel-control-prev-icon,
 #preImpressaoCarouselSmall .carousel-control-next-icon {
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.4);
   border-radius: 50%;
-  padding: 0px; /* Tamanho das setas */
-  
+  width: 25px;
+  height: 25px;
+  background-size: 70% 70%;
+}
+
+#preImpressaoCarouselSmall {
+  overflow: visible;
+  position: relative;
 }
 
 /* Estilos para o bloco de texto */
