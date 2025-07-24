@@ -1025,32 +1025,37 @@ _____________________- */
 /* Estilos para os controlos do carrossel (setas) */
 #preImpressaoCarouselSmall {
   position: relative;
-  overflow: hidden; /* impede conteúdo externo ao carrossel */
+  overflow: hidden;
 }
 
 #preImpressaoCarouselSmall .carousel-control-prev,
 #preImpressaoCarouselSmall .carousel-control-next {
-  width: auto;
   top: 50%;
   transform: translateY(-50%);
+  width: 40px;        /* largura fixa do botão */
+  height: 40px;       /* altura fixa do botão */
+  background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 50%;
+  z-index: 2;
 }
 
 #preImpressaoCarouselSmall .carousel-control-prev {
-  left: 0; /* dentro da imagem, canto esquerdo */
+  left: 10px; /* distância da borda esquerda da imagem */
 }
 
 #preImpressaoCarouselSmall .carousel-control-next {
-  right: 0; /* dentro da imagem, canto direito */
+  right: 10px; /* distância da borda direita da imagem */
 }
 
 #preImpressaoCarouselSmall .carousel-control-prev-icon,
 #preImpressaoCarouselSmall .carousel-control-next-icon {
-  background-color: rgba(0, 0, 0, 0.3);
-  border-radius: 50%;
-  width: 30px;
-  height: 30px;
-  background-size: 70% 70%;
+  width: 100%;
+  height: 100%;
+  background-size: 50% 50%;
+  background-position: center;
+  background-repeat: no-repeat;
 }
+
 
 
 
