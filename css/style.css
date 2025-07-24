@@ -986,7 +986,7 @@ _____________________- */
 /* Estilos para a secção principal */
 .pre-impressao-section-sm {
   background-color: rgb(250, 250, 250); /* Fundo cinza claro */
-  margin-top: 10px; 
+  margin-top: 30px; 
   padding-bottom: 10px; /* Padding no fundo da secção */
 }
 
@@ -1003,6 +1003,7 @@ _____________________- */
 .pre-impressao-carousel-wrapper-sm {
   margin-top: 40px; /* Margem acima do carrossel */
   margin-bottom: 30px; /* Margem abaixo do carrossel */
+  max-width: 80%;
 }
 
 /* Estilos para o carrossel em si */
@@ -1013,7 +1014,7 @@ _____________________- */
 
 /* Estilos para as imagens dentro do carrossel */
 #preImpressaoCarouselSmall .carousel-item img {
-  max-width: 80%;
+  
   height: 200px; /* Altura fixa para as imagens no carrossel pequeno */
   width: auto; /* Mantém a proporção */
   object-fit: contain; /* Ajusta a imagem dentro da área sem cortar */
