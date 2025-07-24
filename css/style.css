@@ -1023,10 +1023,9 @@ _____________________- */
 }
 
 /* Estilos para os controlos do carrossel (setas) */
-
 #preImpressaoCarouselSmall {
-  overflow: visible;
   position: relative;
+  overflow: hidden; /* impede conteúdo externo ao carrossel */
 }
 
 #preImpressaoCarouselSmall .carousel-control-prev,
@@ -1037,21 +1036,22 @@ _____________________- */
 }
 
 #preImpressaoCarouselSmall .carousel-control-prev {
-  left: -10px;
+  left: 0; /* dentro da imagem, canto esquerdo */
 }
 
 #preImpressaoCarouselSmall .carousel-control-next {
-  right: -10px;
+  right: 0; /* dentro da imagem, canto direito */
 }
 
 #preImpressaoCarouselSmall .carousel-control-prev-icon,
 #preImpressaoCarouselSmall .carousel-control-next-icon {
-  background-color: rgba(0, 0, 0, 0.4);
+  background-color: rgba(0, 0, 0, 0.3);
   border-radius: 50%;
-  width: 25px;
-  height: 25px;
+  width: 30px;
+  height: 30px;
   background-size: 70% 70%;
 }
+
 
 
 
