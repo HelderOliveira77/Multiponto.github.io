@@ -1030,8 +1030,8 @@ _____________________- */
 
 #preImpressaoCarouselSmall .carousel-control-prev,
 #preImpressaoCarouselSmall .carousel-control-next {
-  width: 40px;
-  height: 40px;
+  width: 25px;
+  height: 25px;
   top: 50%;
   transform: translateY(-50%);
   background-color: rgba(0, 0, 0, 0.4);
@@ -1052,8 +1052,8 @@ _____________________- */
 
 #preImpressaoCarouselSmall .carousel-control-prev-icon,
 #preImpressaoCarouselSmall .carousel-control-next-icon {
-  width: 20px;
-  height: 20px;
+  width: 10px;
+  height: 10px;
   background-size: 100% 100%;
   background-position: center;
   background-repeat: no-repeat;
