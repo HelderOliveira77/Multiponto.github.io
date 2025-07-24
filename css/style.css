@@ -986,8 +986,9 @@ _____________________- */
 /* Estilos para a secção principal */
 .pre-impressao-section-sm {
   background-color: rgb(250, 250, 250); /* Fundo cinza claro */
-  margin-top: 20px; /* Margem no topo, como no original */
+  margin-top: 30px; /* Margem no topo, como no original */
   padding-bottom: 10px; /* Padding no fundo da secção */
+  max-width: 80%;
 }
 
 /* Estilo para o título */
@@ -1032,7 +1033,8 @@ _____________________- */
 .pre-impressao-text-sm {
   padding-bottom: 0px; /* Padding no fundo do bloco de texto */
   margin-top: 60px; /* Margem no topo do bloco de texto */
-  max-width: 80%;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .pre-impressao-text-sm p {
