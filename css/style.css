@@ -1023,6 +1023,12 @@ _____________________- */
 }
 
 /* Estilos para os controlos do carrossel (setas) */
+
+#preImpressaoCarouselSmall {
+  overflow: visible;
+  position: relative;
+}
+
 #preImpressaoCarouselSmall .carousel-control-prev,
 #preImpressaoCarouselSmall .carousel-control-next {
   width: auto;
@@ -1031,11 +1037,11 @@ _____________________- */
 }
 
 #preImpressaoCarouselSmall .carousel-control-prev {
-  left: -20px;
+  left: -10px;
 }
 
 #preImpressaoCarouselSmall .carousel-control-next {
-  right: -20px;
+  right: -10px;
 }
 
 #preImpressaoCarouselSmall .carousel-control-prev-icon,
@@ -1047,10 +1053,7 @@ _____________________- */
   background-size: 70% 70%;
 }
 
-#preImpressaoCarouselSmall {
-  overflow: visible;
-  position: relative;
-}
+
 
 /* Estilos para o bloco de texto */
 .pre-impressao-text-sm {
