@@ -977,3 +977,69 @@ _____________________- */
   text-align: left; /* Pode ser justificado ou à esquerda */
 }
 
+
+
+
+/* PAGINA SERVIÇOS ECRAS PEQUENOS */
+/* --- ESTILOS PARA ECRÃS PEQUENOS (Mobile, Tablet Retrato) --- */
+
+/* Estilos para a secção principal */
+.pre-impressao-section-sm {
+  background-color: rgb(250, 250, 250); /* Fundo cinza claro */
+  margin-top: 50px; /* Margem no topo, como no original */
+  padding-bottom: 20px; /* Padding no fundo da secção */
+}
+
+/* Estilo para o título */
+.pre-impressao-title-sm {
+  font-weight: 300;
+  font-size: 32px; /* Ajustado para ecrãs pequenos */
+  letter-spacing: 2.5px;
+  margin-bottom: 20px; /* Espaçamento abaixo do título */
+}
+
+/* Estilos para o invólucro do carrossel */
+.pre-impressao-carousel-wrapper-sm {
+  margin-top: 20px; /* Margem acima do carrossel */
+  margin-bottom: 15px; /* Margem abaixo do carrossel */
+}
+
+/* Estilos para o carrossel em si */
+#preImpressaoCarouselSmall {
+  max-height: 250px; /* Altura máxima para o carrossel, ajuste conforme necessário */
+  overflow: hidden; /* Esconde o que transbordar */
+}
+
+/* Estilos para as imagens dentro do carrossel */
+#preImpressaoCarouselSmall .carousel-item img {
+  height: 200px; /* Altura fixa para as imagens no carrossel pequeno */
+  width: auto; /* Mantém a proporção */
+  object-fit: contain; /* Ajusta a imagem dentro da área sem cortar */
+  display: block; /* Garante que a imagem se comporta como bloco */
+  margin: 0 auto; /* Centraliza a imagem */
+}
+
+/* Estilos para os controlos do carrossel (setas) */
+#preImpressaoCarouselSmall .carousel-control-prev-icon,
+#preImpressaoCarouselSmall .carousel-control-next-icon {
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 50%;
+  padding: 15px; /* Tamanho das setas */
+}
+
+/* Estilos para o bloco de texto */
+.pre-impressao-text-sm {
+  padding-bottom: 60px; /* Padding no fundo do bloco de texto */
+  margin-top: 30px; /* Margem no topo do bloco de texto */
+}
+
+.pre-impressao-text-sm p {
+  font-size: 18px; /* Tamanho da fonte para parágrafos */
+  line-height: 28px; /* Altura da linha para melhor legibilidade */
+  text-align: justify;
+  margin-bottom: 1rem; /* Espaçamento entre parágrafos */
+}
+
+.pre-impressao-text-sm p strong {
+  font-weight: bold;
+}
