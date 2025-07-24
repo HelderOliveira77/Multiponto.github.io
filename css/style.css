@@ -996,7 +996,7 @@ _____________________- */
   font-size: 32px; /* Ajustado para ecrãs pequenos */
   letter-spacing: 0.5px;
   margin-bottom: 30px; /* Espaçamento abaixo do título */
-  margin-top: 40px;
+  margin-top: 50px;
 }
 
 /* Estilos para o invólucro do carrossel */
@@ -1027,7 +1027,7 @@ _____________________- */
 #preImpressaoCarouselSmall .carousel-control-next-icon {
   background-color: rgba(0, 0, 0, 0.5);
   border-radius: 50%;
-  padding: 10px; /* Tamanho das setas */
+  padding: 0px; /* Tamanho das setas */
 }
 
 /* Estilos para o bloco de texto */
