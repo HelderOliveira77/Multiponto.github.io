@@ -1009,7 +1009,7 @@ _____________________- */
 /* Estilos para o carrossel em si */
 #preImpressaoCarouselSmall {
   max-height: 250px; /* Altura máxima para o carrossel, ajuste conforme necessário */
-  overflow: hidden; /* Esconde o que transbordar */
+  /* overflow: hidden;  Esconde o que transbordar */
 }
 
 /* Estilos para as imagens dentro do carrossel */
