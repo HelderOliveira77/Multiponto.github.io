@@ -1002,7 +1002,7 @@ _____________________- */
 /* Estilos para o invólucro do carrossel */
 .pre-impressao-carousel-wrapper-sm {
   margin-top: 40px; /* Margem acima do carrossel */
-  margin-bottom: 30px; /* Margem abaixo do carrossel */
+  margin-bottom: 20px; /* Margem abaixo do carrossel */
   max-width: 80%;
 }
 
@@ -1052,16 +1052,13 @@ _____________________- */
 
 #preImpressaoCarouselSmall .carousel-control-prev-icon,
 #preImpressaoCarouselSmall .carousel-control-next-icon {
-  width: 10px;
-  height: 10px;
+  width: 20px;
+  height: 20px;
   background-size: 100% 100%;
   background-position: center;
   background-repeat: no-repeat;
   filter: invert(1);
 }
-
-
-
 
 
 
