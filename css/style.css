@@ -1034,8 +1034,8 @@ _____________________- */
   height: 30px;
   top: 50%;
   transform: translateY(-50%);
-  background-color:none;
-  /* border-radius: 50%; */
+  background-color:#A4A4A4;
+  border-radius: 50%;
   z-index: 10;
   display: flex;
   align-items: center;
