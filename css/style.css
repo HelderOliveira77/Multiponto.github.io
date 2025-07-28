@@ -1130,10 +1130,26 @@ _____________________- */
   margin: 0 auto; /* Centraliza a imagem */
 }
 
-/* Estilos para os controlos do carrossel (setas) */
-.carousel.slide .carousel-control-prev-icon,
-.carousel.slide .carousel-control-next-icon {
-  background-color: rgba(0, 0, 0, 0.5);
-  border-radius: 50%;
-  padding: 15px; /* Tamanho das setas */
+/* --- ESTILOS PARA AS SETAS DOS CARROSSÉIS --- */
+/* Altera a cor dos ícones (setas) para preto e remove o fundo */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  /* Remove o background-color que as torna um círculo/quadrado sólido */
+  background-color: transparent !important; /* Use !important se for necessário para sobrescrever */
+  background-image: none !important; /* Remove a imagem de fundo padrão do Bootstrap */
+
+  /* Estiliza o ícone SVG diretamente */
+  filter: invert(0%) sepia(100%) saturate(7464%) hue-rotate(360deg) brightness(0%) contrast(100%) !important;
+  /* Este filtro CSS transforma o ícone branco padrão do Bootstrap em preto. */
+  /* Ele inverte as cores e ajusta para que fique totalmente preto. */
+
+  /* Ajuste de tamanho, se necessário */
+  width: 2rem; /* Aumenta um pouco o tamanho do ícone */
+  height: 2rem; /* Aumenta um pouco o tamanho do ícone */
+}
+
+/* Opcional: Estilo ao passar o mouse para dar feedback visual */
+.carousel-control-prev:hover .carousel-control-prev-icon,
+.carousel-control-next:hover .carousel-control-next-icon {
+    opacity: 0.8; /* Torna as setas ligeiramente transparentes ao passar o mouse */
 }
