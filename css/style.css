@@ -1079,3 +1079,59 @@ _____________________- */
 .pre-impressao-text-sm p strong {
   font-weight: bold;
 }
+
+
+
+/* PÁGINA PRODUTOS PARA MOBILE */
+/* ######################## */
+/* ######################## */
+/* --- ESTILOS GERAIS PARA AS SECÇÕES DE PRODUTOS (Mobile, Tablet Retrato) --- */
+
+.produtos-section-sm {
+  background-color: rgb(250, 250, 250); /* Fundo cinza claro */
+  padding-top: 60px; /* Espaçamento superior para cada seção */
+  padding-bottom: 70px; /* Espaçamento inferior para cada seção */
+  margin-top: 0; /* Garante que não há margem extra no topo */
+}
+
+/* Estilos para a row do cabeçalho (título) */
+.produtos-header-row-sm {
+  margin-bottom: 30px; /* Espaçamento abaixo do título */
+}
+
+/* Estilo para o título de cada seção */
+.produtos-title-sm {
+  font-weight: 300;
+  font-size: 28px; /* Tamanho da fonte para ecrãs pequenos */
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+}
+
+/* Estilos para a row do carrossel */
+.produtos-carousel-row-sm {
+  margin-top: 0; /* Ajusta a margem superior para o carrossel */
+}
+
+/* Estilos para o carrossel em si (aplicado a todos os carrosséis) */
+.carousel.slide {
+  width: 100%; /* Ocupa 100% da largura da coluna */
+  max-height: 350px; /* Altura máxima para o carrossel em ecrãs pequenos */
+  overflow: hidden; /* Esconde o que transbordar */
+}
+
+/* Estilos para as imagens dentro do carrossel (aplicado a todas as imagens) */
+.carousel.slide .carousel-item img {
+  height: 300px; /* Altura fixa para as imagens no carrossel pequeno */
+  width: auto; /* Mantém a proporção */
+  object-fit: contain; /* Ajusta a imagem dentro da área sem cortar */
+  display: block; /* Garante que a imagem se comporta como bloco */
+  margin: 0 auto; /* Centraliza a imagem */
+}
+
+/* Estilos para os controlos do carrossel (setas) */
+.carousel.slide .carousel-control-prev-icon,
+.carousel.slide .carousel-control-next-icon {
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 50%;
+  padding: 15px; /* Tamanho das setas */
+}
