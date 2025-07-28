@@ -1191,7 +1191,6 @@ _____________________- */
 
 /* PARA A PÁGINA CONTACTOS MOBILE */
 /* --- ESTILOS PARA INFORMAÇÕES DE CONTACTO (Mobile, Tablet Retrato) --- */
-
 .contacto-info-sm {
   /* No HTML original não tinha background-color para esta secção, mas pode adicionar se precisar */
   /* background-color: rgb(250, 250, 250); */
@@ -1201,7 +1200,7 @@ _____________________- */
 
 .contacto-address-line-1 {
   margin-top: 0px; /* Ajustado via CSS */
-  font-size: 32px; /* Reduzido um pouco para mobile */
+  font-size: 34px; /* Reduzido um pouco para mobile */
   letter-spacing: 0px;
   text-align: center;
   line-height: 1.2; /* Para garantir espaçamento adequado */
@@ -1209,14 +1208,14 @@ _____________________- */
 
 .contacto-address-line-2 {
   margin-top: 0px; /* Ajustado via CSS */
-  font-size: 32px; /* Reduzido um pouco para mobile */
+  font-size: 34px; /* Reduzido um pouco para mobile */
   letter-spacing: 0px;
   text-align: center;
   line-height: 1.2; /* Para garantir espaçamento adequado */
 }
 
 .contacto-phone {
-  margin-top: 30px; /* Mantém a margem do original */
+  margin-top: 0px; /* Mantém a margem do original */
   font-size: 32px; /* Reduzido um pouco para mobile */
   letter-spacing: 0px;
   text-align: center;
@@ -1224,7 +1223,7 @@ _____________________- */
 }
 
 .contacto-phone-detail {
-  font-size: 22px; /* Reduzido um pouco para mobile */
+  font-size: 20px; /* Reduzido um pouco para mobile */
   letter-spacing: 0px;
   margin-top: 5px; /* Mantém a margem do original */
   line-height: 1.2; /* Ajustado para espaçamento adequado */
@@ -1233,9 +1232,9 @@ _____________________- */
 }
 
 .contacto-gps {
-  margin-top: 34px; /* Mantém a margem do original */
+  margin-top: 20px; /* Mantém a margem do original */
   font-size: 28px; /* Reduzido um pouco para mobile */
   letter-spacing: 0px;
   text-align: center;
-  line-height: 1.2;
+  line-height: 1;
 }
