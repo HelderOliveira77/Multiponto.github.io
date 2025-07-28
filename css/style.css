@@ -1200,7 +1200,7 @@ _____________________- */
 
 .contacto-address-line-1 {
   margin-top: 0px; /* Ajustado via CSS */
-  font-size: 32px; /* Reduzido um pouco para mobile */
+  font-size: 30px; /* Reduzido um pouco para mobile */
   letter-spacing: 0px;
   text-align: center;
   line-height: 1.2; /* Para garantir espaçamento adequado */
@@ -1208,7 +1208,7 @@ _____________________- */
 
 .contacto-address-line-2 {
   margin-top: 0px; /* Ajustado via CSS */
-  font-size: 32px; /* Reduzido um pouco para mobile */
+  font-size: 30px; /* Reduzido um pouco para mobile */
   letter-spacing: 0px;
   text-align: center;
   line-height: 1.2; /* Para garantir espaçamento adequado */
@@ -1216,7 +1216,7 @@ _____________________- */
 
 .contacto-phone {
   margin-top: 0px; /* Mantém a margem do original */
-  font-size: 30px; /* Reduzido um pouco para mobile */
+  font-size: 28px; /* Reduzido um pouco para mobile */
   letter-spacing: 0px;
   text-align: center;
   line-height: 1.2;
@@ -1232,8 +1232,8 @@ _____________________- */
 }
 
 .contacto-gps {
-  margin-top: 18px; /* Mantém a margem do original */
-  font-size: 28px; /* Reduzido um pouco para mobile */
+  margin-top: 20px; /* Mantém a margem do original */
+  font-size: 20px; /* Reduzido um pouco para mobile */
   letter-spacing: 0px;
   text-align: center;
   line-height: 1;
