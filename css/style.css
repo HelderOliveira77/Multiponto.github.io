@@ -1130,41 +1130,59 @@ _____________________- */
   margin: 0 auto; /* Centraliza a imagem */
 }
 
+
 /* --- ESTILOS PARA AS SETAS DOS CARROSSÉIS (Versão Corrigida) --- */
-/* Remove qualquer cor de fundo e imagem de fundo que possa estar a interferir */
+/* --- Ajustes para os Controles do Carrossel (Botões e Setas) --- */
+/* Ajusta o posicionamento dos botões de controle (setas) */
+.carousel-control-prev,
+.carousel-control-next {
+  width: 15%; /* Reduz a largura da área clicável para que as setas fiquem mais próximas do centro */
+  /* Remove qualquer background-color aqui se estiver presente */
+  background: none !important; /* Remove qualquer fundo dos botões */
+  opacity: 1; /* Garante que os botões não estão transparentes */
+}
+
+/* Remove qualquer background-color ou background-image dos ícones padrão do Bootstrap */
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
   background-color: transparent !important; /* Assegura que não há fundo sólido */
   background-image: none !important; /* Remove a imagem de fundo padrão do Bootstrap */
-
-  /* Define um tamanho base, se ainda não estiver definido */
-  width: 2rem; /* Por exemplo, 2x o tamanho da fonte padrão */
+  
+  /* Mantém um tamanho razoável para a área do ícone */
+  width: 2rem; 
   height: 2rem;
 }
 
-/* Estiliza o ícone SVG interno para que seja preto */
-.carousel-control-prev-icon::before,
-.carousel-control-next-icon::before {
-  content: ""; /* Necessário para pseudo-elementos */
-  display: inline-block; /* Permite controlar as dimensões */
+/* Força a cor preta nas setas usando SVG embutido nos pseudo-elementos */
+/* Adicionado um z-index para garantir que estão por cima de outros elementos */
+.carousel-control-prev-icon::before {
+  content: "";
+  display: inline-block;
   width: 100%;
   height: 100%;
-
-  /* Define a cor do SVG para preto usando um SVG de dados embutido */
-  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23000'%3e%3cpath d='M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z'/%3e%3c/svg%3e"); /* Seta para a esquerda preta */
+  /* SVG de seta esquerda preta */
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23000'%3e%3cpath d='M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z'/%3e%3c/svg%3e");
   background-repeat: no-repeat;
   background-position: 50% 50%;
   background-size: 100% 100%;
+  z-index: 10; /* Garante que está acima de outros elementos */
 }
 
-/* Especificamente para a seta da direita, ajusta o SVG */
 .carousel-control-next-icon::before {
-  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23000'%3e%3cpath d='M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e"); /* Seta para a direita preta */
+  content: "";
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  /* SVG de seta direita preta */
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23000'%3e%3cpath d='M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: 100% 100%;
+  z-index: 10; /* Garante que está acima de outros elementos */
 }
-
 
 /* Opcional: Estilo ao passar o mouse para dar feedback visual */
 .carousel-control-prev:hover .carousel-control-prev-icon::before,
 .carousel-control-next:hover .carousel-control-next-icon::before {
-    opacity: 0.8; /* Torna as setas ligeiramente transparentes ao passar o mouse */
+    opacity: 0.7; /* Torna as setas ligeiramente transparentes ao passar o mouse */
 }
