@@ -1089,22 +1089,24 @@ _____________________- */
 
 .produtos-section-sm {
   background-color: rgb(250, 250, 250); /* Fundo cinza claro */
-  padding-top: 60px; /* Espaçamento superior para cada seção */
-  padding-bottom: 70px; /* Espaçamento inferior para cada seção */
+  padding-top: 0px; /* Espaçamento superior para cada seção */
+  padding-bottom: 10px; /* Espaçamento inferior para cada seção */
   margin-top: 0; /* Garante que não há margem extra no topo */
 }
 
 /* Estilos para a row do cabeçalho (título) */
 .produtos-header-row-sm {
-  margin-bottom: 30px; /* Espaçamento abaixo do título */
+  margin-bottom: 0px; /* Espaçamento abaixo do título */
 }
 
 /* Estilo para o título de cada seção */
 .produtos-title-sm {
   font-weight: 300;
-  font-size: 28px; /* Tamanho da fonte para ecrãs pequenos */
-  letter-spacing: 1.5px;
+  font-size: 32px; /* Tamanho da fonte para ecrãs pequenos */
+  letter-spacing: 0.5px;
   text-transform: uppercase;
+  margin-bottom: 30px; /* Espaçamento abaixo do título */
+  margin-top: 50px;
 }
 
 /* Estilos para a row do carrossel */

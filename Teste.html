@@ -1,138 +1,22 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="pt">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  <title>HOME</title>
-
-  <link rel="stylesheet" href="css/style.css">
-
-   <!-- <link rel=”stylesheet” type="text/css"
-    href=”https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css”rel=”nofollow”
-    integrity=”sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I” crossorigin=”anonymous”>
-
-  <link rel="stylesheet" type="text/css"
-    href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">  -->
-
-<!-- CSS do Bootstrap -->
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-
-<!-- JS do Bootstrap (no fim do <body>) -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-
-
-
-
+  <title>Formulário de Contato</title>
 </head>
-
 <body>
+  <h2>Formulário de Contato</h2>
+  <form action="processa_formulario.php" method="POST">
+    <label for="nome">Nome:</label><br>
+    <input type="text" id="nome" name="nome" required><br><br>
 
+    <label for="email">Email:</label><br>
+    <input type="email" id="email" name="email" required><br><br>
 
-  <div class="container-fluid d-none d-lg-block" style="padding-top: 30px; padding-bottom: 30px; width: 50%;">
-    <div class="row">
+    <label for="telefone">Telefone:</label><br>
+    <input type="text" id="telefone" name="telefone" required><br><br>
 
-
-      <table align=" center"
-        style="margin-bottom: 30px; margin-top: 0px; text-align: justify; font-size: 18px; line-height: 30px; font-weight: 200; letter-spacing: 0.75px; border-top: 0px; ">
-        <tr>
-          <td>
-            <strong> PEQUENOS FORMATOS</strong> <br> Ideais para personalizações e impressão de pequenas quantidades
-            imprimir em
-            papel ior, couchés, fine papers e acetatos, com uma gramagem máxima até 300 grs.
-            <br> <br> <strong>GRANDES FORMATOS </strong> <br> Nos grandes formatos podem ser usados vários materiais e
-            acabamentos desde a lona, a tela artística, papel simples ou fotográfico, autocolante, vinil, laminação
-            brilho ou mate, contra colagens em pvc, microonda, k-mount e corte de plotter.
-
-            <p>
-              <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample" role="button"
-                aria-expanded="false" aria-controls="collapseExample"
-                style="background-color: black; opacity: 100%; color: white; font-size: 18px; line-height: 30px; font-weight: 200; letter-spacing: 0.75px; margin-top: 30px; ">
-                › Materiais Flexíveis
-              </a>
-            </p>
-            <div class="collapse" id="collapseExample">
-              <div class="card card-body" style="border: 0px;">
-                <strong> LONAS EM TECIDO </strong>
-                <br> Material perfeito para uma comunicação elegante. Ideal para utilização em ambiente interior. <br>
-                <p> </p>
-                <strong> LONAS EM PVC </strong>
-                <br> Material que apresenta grande versatilidade, durabilidade e custo-benefício.
-                Ideal para aplicações exteriores em eventos, sinalética de festivais ao ar livre, competições
-                desportivas, outdoors, empenas.
-                <p> </p>
-                <strong> LONAS MICROPERFURADAS </strong>
-                <br> Material que se caracteriza pela presença de pequenos orifícios (microperfurações) distribuídos
-                uniformemente por toda a sua superfície. Estas microperfurações conferem propriedades únicas à lona
-                como a resistência ao vento, permitindo a passagem do ar, tornando-as ideais para utilização em
-                exteriores, são mais leves que as lonas de PVC lisa, o que facilita o manuseamento e a instalação,
-                especialmente em grandes formatos. Normalmente são utilizadas em publicidade em fachadas de edifícios,
-                cobrindo grandes áreas sem bloquear completamente a luz ou a visão do interior.
-
-              </div>
-            </div>
-
-            <p>
-              <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample_2" role="button"
-                aria-expanded="false" aria-controls="collapseExample_2"
-                style="background-color: black; opacity: 100%; color: white; font-size: 18px; line-height: 30px; font-weight: 200; letter-spacing: 0.75px; margin-top: 20px; ">
-                › Materiais Rígidos
-              </a>
-            </p>
-            <div class="collapse" id="collapseExample_2">
-              <div class="card card-body" style="border: 0px;">
-                <strong> DIBOND </strong>
-                <br> Material resistente a condições atmosféricas, ideal para a decoração de sinalética de exteriores
-                ou suportes informativos.
-                <p> </p>
-                <strong> CARTÃO </strong>
-                <br> Material de impressão leve e ecológico. Com diferentes tipos de espessura, o cartão é o produto
-                perfeito para sinalética temporária em interiores, como displays, Photowall’s, pendurantes, topos de
-                gondola.
-                <p> </p>
-                <strong> PVC </strong>
-                <br> Material resistente, disponível em diversos formatos e espessuras 1 a 19mm. Ideal para sinalética
-                ou decoração permanente em interior ou exterior.
-                <p> </p>
-                <strong>ACRÍLICO </strong>
-                <br> Material resistente, em transparente ou cores. A versatilidade nos acabamentos deste material
-                fazem dele um produto premium.
-                <p> </p>
-                <strong>ALVEOLAR </strong>
-                <br> material leve e económico é adequado para utilização interior e de curta durabilidade no
-                exterior.
-                <p> </p>
-                <strong> SANDWICH </strong>
-                <br> Material leve, resistente e fácil de manusear que garante um excelente comportamento em painéis
-                de maior dimensão para uso sobretudo no interior.
-
-              </div>
-            </div>
-
-            <br> Na opção pelo material indicado é fundamental considerar fatores como a exposição às condições
-            climáticas (sol, chuva, vento, variações de temperatura), a durabilidade e resistência dos materiais, a
-            segurança da montagem e a estética do resultado final.
-
-
-          </td>
-        </tr>
-      </table>
-    </div>
-  </div>
-
-
-
-
-
-  <!-- Bootstrap JS (necessário para o carrossel funcionar) -->
-
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhyUVqC/uFqY6bFLA5a5Gg" crossorigin="anonymous"></script>
+    <input type="submit" value="Enviar">
+  </form>
 </body>
 </html>
-
-
-
-
-
-
