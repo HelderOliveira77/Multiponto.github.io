@@ -1130,26 +1130,41 @@ _____________________- */
   margin: 0 auto; /* Centraliza a imagem */
 }
 
-/* --- ESTILOS PARA AS SETAS DOS CARROSSÉIS --- */
-/* Altera a cor dos ícones (setas) para preto e remove o fundo */
+/* --- ESTILOS PARA AS SETAS DOS CARROSSÉIS (Versão Corrigida) --- */
+/* Remove qualquer cor de fundo e imagem de fundo que possa estar a interferir */
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
-  /* Remove o background-color que as torna um círculo/quadrado sólido */
-  background-color: transparent !important; /* Use !important se for necessário para sobrescrever */
+  background-color: transparent !important; /* Assegura que não há fundo sólido */
   background-image: none !important; /* Remove a imagem de fundo padrão do Bootstrap */
 
-  /* Estiliza o ícone SVG diretamente */
-  filter: invert(0%) sepia(100%) saturate(7464%) hue-rotate(360deg) brightness(0%) contrast(100%) !important;
-  /* Este filtro CSS transforma o ícone branco padrão do Bootstrap em preto. */
-  /* Ele inverte as cores e ajusta para que fique totalmente preto. */
-
-  /* Ajuste de tamanho, se necessário */
-  width: 2rem; /* Aumenta um pouco o tamanho do ícone */
-  height: 2rem; /* Aumenta um pouco o tamanho do ícone */
+  /* Define um tamanho base, se ainda não estiver definido */
+  width: 2rem; /* Por exemplo, 2x o tamanho da fonte padrão */
+  height: 2rem;
 }
 
+/* Estiliza o ícone SVG interno para que seja preto */
+.carousel-control-prev-icon::before,
+.carousel-control-next-icon::before {
+  content: ""; /* Necessário para pseudo-elementos */
+  display: inline-block; /* Permite controlar as dimensões */
+  width: 100%;
+  height: 100%;
+
+  /* Define a cor do SVG para preto usando um SVG de dados embutido */
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23000'%3e%3cpath d='M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z'/%3e%3c/svg%3e"); /* Seta para a esquerda preta */
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: 100% 100%;
+}
+
+/* Especificamente para a seta da direita, ajusta o SVG */
+.carousel-control-next-icon::before {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23000'%3e%3cpath d='M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e"); /* Seta para a direita preta */
+}
+
+
 /* Opcional: Estilo ao passar o mouse para dar feedback visual */
-.carousel-control-prev:hover .carousel-control-prev-icon,
-.carousel-control-next:hover .carousel-control-next-icon {
+.carousel-control-prev:hover .carousel-control-prev-icon::before,
+.carousel-control-next:hover .carousel-control-next-icon::before {
     opacity: 0.8; /* Torna as setas ligeiramente transparentes ao passar o mouse */
 }
