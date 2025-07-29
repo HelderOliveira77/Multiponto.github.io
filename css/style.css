@@ -1302,13 +1302,13 @@ _____________________- */
 /* --- ESTILOS PARA POLÍTICA DE PRIVACIDADE (Mobile, Tablet Retrato) --- */
 
 .politica-privacidade-sm {
-  padding-top: 20px; /* Mantém a margem do original como padding superior */
+  padding-top: 10px; /* Mantém a margem do original como padding superior */
   padding-bottom: 40px; /* Adiciona um padding inferior para o bloco geral */
   background-color: transparent; /* Se quiser um fundo diferente, defina aqui */
 }
 
 .politica-paragrafo-sm {
-  font-size: 18px; /* Tamanho da fonte para parágrafos em ecrãs pequenos */
+  font-size: 16px; /* Tamanho da fonte para parágrafos em ecrãs pequenos */
   text-align: justify;
   line-height: 28px; /* Espaçamento entre as linhas para melhor legibilidade */
   margin-bottom: 1.5rem; /* Adiciona espaçamento entre parágrafos, ajustável */
