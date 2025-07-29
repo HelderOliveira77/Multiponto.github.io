@@ -1301,7 +1301,9 @@ _____________________- */
 ################## */
 /* --- ESTILOS PARA POLÍTICA DE PRIVACIDADE (Mobile, Tablet Retrato) --- */
 
-.politica-privacidade-sm {
+.politica-privacidade-sm,
+.politica-cookies-sm
+{
   padding-top: 5px; /* Mantém a margem do original como padding superior */
   padding-bottom: 40px; /* Adiciona um padding inferior para o bloco geral */
   background-color: transparent; /* Se quiser um fundo diferente, defina aqui */
@@ -1326,6 +1328,14 @@ _____________________- */
   margin-top: 2.5rem; /* Espaçamento acima do subtítulo */
   margin-bottom: 1rem; /* Espaçamento abaixo do subtítulo */
   text-align: left; /* Alinha os títulos à esquerda para consistência com o corpo */
+}
+
+.politica-tipo-cookie-sm {
+  font-size: 16px; /* Um pouco menor para subcategorias */
+  font-weight: bold;
+  text-align: left;
+  margin-top: 1.5rem; /* Espaçamento acima do tipo de cookie */
+  margin-bottom: 0.5rem; /* Espaçamento abaixo do tipo de cookie */
 }
 
 /* Estilo para a lista principal (ex: • estar consciente...) */
