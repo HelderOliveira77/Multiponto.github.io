@@ -1302,7 +1302,8 @@ _____________________- */
 /* --- ESTILOS PARA POLÍTICA DE PRIVACIDADE (Mobile, Tablet Retrato) --- */
 
 .politica-privacidade-sm,
-.politica-cookies-sm
+.politica-cookies-sm,
+.condicoes-venda-sm
 {
   padding-top: 5px; /* Mantém a margem do original como padding superior */
   padding-bottom: 40px; /* Adiciona um padding inferior para o bloco geral */
@@ -1367,4 +1368,25 @@ _____________________- */
   margin-bottom: 0.5rem;
   /* Simula a itálico do <i> original, se desejar */
   font-style: italic;
+}
+
+.condicoes-intro-sm {
+  font-size: 16px; /* Tamanho da fonte para parágrafos em ecrãs pequenos */
+  text-align: justify;
+  line-height: 28px;
+  margin-bottom: 1.5rem; /* Espaçamento abaixo da introdução */
+}
+
+/* Estilo para a lista ordenada das condições */
+.condicoes-lista-sm {
+  list-style-type: decimal; /* Garante numeração com pontos (1., 2., etc.) */
+  padding-left: 25px; /* Indentação para a lista numerada */
+  margin-bottom: 1.5rem; /* Espaçamento abaixo da lista */
+}
+
+.condicoes-lista-sm li {
+  font-size: 16px; /* Tamanho da fonte para os itens da lista */
+  text-align: justify;
+  line-height: 28px;
+  margin-bottom: 1rem; /* Espaçamento entre cada item da condição */
 }
