@@ -1325,7 +1325,7 @@ _____________________- */
   text-transform: uppercase;
   margin-top: 2.5rem; /* Espaçamento acima do subtítulo */
   margin-bottom: 1rem; /* Espaçamento abaixo do subtítulo */
-  text-align: left; /* Alinha os títulos à esquerda para consistência com o corpo */
+  text-align: justify; /* Alinha os títulos à esquerda para consistência com o corpo */
 }
 
 /* Estilo para a lista principal (ex: • estar consciente...) */
@@ -1347,6 +1347,8 @@ _____________________- */
   padding-left: 20px; /* Indentação adicional para a sub-lista */
   margin-top: 0.5rem; /* Espaçamento acima da sub-lista */
   margin-bottom: 0.5rem; /* Espaçamento abaixo da sub-lista */
+  font-size: 16px; /* Tamanho da fonte para itens da lista */
+  line-height: 28px;
 }
 
 .politica-sublista-sm li {
