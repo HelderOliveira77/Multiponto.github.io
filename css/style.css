@@ -1320,7 +1320,7 @@ _____________________- */
 
 /* Estilo para os subtítulos (ex: 1. OS SEUS DADOS PESSOAIS) */
 .politica-subtitulo-sm {
-  font-size: 20px; /* Tamanho da fonte para subtítulos */
+  font-size: 16px; /* Tamanho da fonte para subtítulos */
   font-weight: bold;
   text-transform: uppercase;
   margin-top: 2.5rem; /* Espaçamento acima do subtítulo */
@@ -1336,7 +1336,7 @@ _____________________- */
 }
 
 .politica-lista-sm li {
-  font-size: 18px; /* Tamanho da fonte para itens da lista */
+  font-size: 16px; /* Tamanho da fonte para itens da lista */
   line-height: 28px;
   margin-bottom: 0.5rem; /* Espaçamento entre itens da lista */
 }
@@ -1350,7 +1350,7 @@ _____________________- */
 }
 
 .politica-sublista-sm li {
-  font-size: 18px; /* Tamanho da fonte para itens da sub-lista */
+  font-size: 16px; /* Tamanho da fonte para itens da sub-lista */
   line-height: 28px;
   margin-bottom: 0.5rem;
   /* Simula a itálico do <i> original, se desejar */
