@@ -1273,7 +1273,7 @@ _____________________- */
   /* Pode adicionar um background-color se desejar, como no original */
   /* background-color: rgb(250, 250, 250); */
   padding-top: 60px; /* Padding superior para o bloco geral */
-  padding-bottom: 10px; /* Padding inferior para o bloco geral */
+  padding-bottom: 0px; /* Padding inferior para o bloco geral */
 }
 
 .departamento-title-sm {
@@ -1292,4 +1292,67 @@ _____________________- */
   text-align: center;
   line-height: 1.3; /* Espaçamento entre as linhas de contacto */
   margin-bottom: 10; /* Remove a margem inferior padrão dos parágrafos para linhas mais próximas */
+}
+
+
+
+
+/* PAGINA POLITICA DE PRIVACIDADE
+################## */
+/* --- ESTILOS PARA POLÍTICA DE PRIVACIDADE (Mobile, Tablet Retrato) --- */
+
+.politica-privacidade-sm {
+  padding-top: 20px; /* Mantém a margem do original como padding superior */
+  padding-bottom: 40px; /* Adiciona um padding inferior para o bloco geral */
+  background-color: transparent; /* Se quiser um fundo diferente, defina aqui */
+}
+
+.politica-paragrafo-sm {
+  font-size: 18px; /* Tamanho da fonte para parágrafos em ecrãs pequenos */
+  text-align: justify;
+  line-height: 28px; /* Espaçamento entre as linhas para melhor legibilidade */
+  margin-bottom: 1.5rem; /* Adiciona espaçamento entre parágrafos, ajustável */
+}
+
+.politica-paragrafo-sm:first-of-type {
+    margin-top: 0; /* Remove margem extra no primeiro parágrafo se houver */
+}
+
+/* Estilo para os subtítulos (ex: 1. OS SEUS DADOS PESSOAIS) */
+.politica-subtitulo-sm {
+  font-size: 20px; /* Tamanho da fonte para subtítulos */
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-top: 2.5rem; /* Espaçamento acima do subtítulo */
+  margin-bottom: 1rem; /* Espaçamento abaixo do subtítulo */
+  text-align: left; /* Alinha os títulos à esquerda para consistência com o corpo */
+}
+
+/* Estilo para a lista principal (ex: • estar consciente...) */
+.politica-lista-sm {
+  list-style: disc; /* Ícone de lista padrão */
+  padding-left: 20px; /* Indentação para a lista */
+  margin-bottom: 1.5rem; /* Espaçamento abaixo da lista */
+}
+
+.politica-lista-sm li {
+  font-size: 18px; /* Tamanho da fonte para itens da lista */
+  line-height: 28px;
+  margin-bottom: 0.5rem; /* Espaçamento entre itens da lista */
+}
+
+/* Estilo para a sub-lista (ex: - melhorar o funcionamento...) */
+.politica-sublista-sm {
+  list-style: none; /* Remove o ícone padrão da sub-lista */
+  padding-left: 20px; /* Indentação adicional para a sub-lista */
+  margin-top: 0.5rem; /* Espaçamento acima da sub-lista */
+  margin-bottom: 0.5rem; /* Espaçamento abaixo da sub-lista */
+}
+
+.politica-sublista-sm li {
+  font-size: 18px; /* Tamanho da fonte para itens da sub-lista */
+  line-height: 28px;
+  margin-bottom: 0.5rem;
+  /* Simula a itálico do <i> original, se desejar */
+  font-style: italic;
 }
