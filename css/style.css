@@ -1388,5 +1388,6 @@ _____________________- */
   font-size: 16px; /* Tamanho da fonte para os itens da lista */
   text-align: justify;
   line-height: 28px;
-  margin-bottom: 1rem; /* Espaçamento entre cada item da condição */
+  margin-bottom: 1.5rem; /* Espaçamento entre cada item da condição */
+  
 }
