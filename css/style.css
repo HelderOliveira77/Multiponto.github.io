@@ -1244,8 +1244,8 @@ _____________________- */
 /* ######################## */
 /* --- ESTILOS PARA O MAPA (Mobile, Tablet Retrato) --- */
 .mapa-section-sm {
-  padding-top: 20px; /* Margem no topo, como padding para o bloco */
-  padding-bottom: 40px; /* Adicionei um padding inferior para espaço */
+  padding-top: 10px; /* Margem no topo, como padding para o bloco */
+  padding-bottom: 20px; /* Adicionei um padding inferior para espaço */
   background-color: transparent; /* Se quiser um fundo diferente, defina aqui */
 }
 
@@ -1264,4 +1264,32 @@ _____________________- */
   width: 100%;
   position: absolute;
   border: 0; /* Removendo a borda padrão do iframe */
+}
+
+
+/* OUTROS CONTACTOS */
+/* --- ESTILOS PARA SECÇÕES DE DEPARTAMENTOS (Mobile, Tablet Retrato) --- */
+.departamentos-section-sm {
+  /* Pode adicionar um background-color se desejar, como no original */
+  /* background-color: rgb(250, 250, 250); */
+  padding-top: 60px; /* Padding superior para o bloco geral */
+  padding-bottom: 60px; /* Padding inferior para o bloco geral */
+}
+
+.departamento-title-sm {
+  font-size: 24px; /* Tamanho da fonte para o título em ecrãs pequenos */
+  letter-spacing: 0px;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-top: 0; /* Bootstrap's mt-5 handle spacing between sections */
+  margin-bottom: 15px; /* Espaçamento abaixo do título */
+}
+
+.departamento-contact-sm p {
+  font-size: 22px; /* Tamanho da fonte para os contactos em ecrãs pequenos */
+  letter-spacing: 0px;
+  text-align: center;
+  line-height: 1.5; /* Espaçamento entre as linhas de contacto */
+  margin-bottom: 0; /* Remove a margem inferior padrão dos parágrafos para linhas mais próximas */
 }
