@@ -1244,7 +1244,7 @@ _____________________- */
 /* ######################## */
 /* --- ESTILOS PARA O MAPA (Mobile, Tablet Retrato) --- */
 .mapa-section-sm {
-  padding-top: 40px; /* Margem no topo, como padding para o bloco */
+  padding-top: 20px; /* Margem no topo, como padding para o bloco */
   padding-bottom: 40px; /* Adicionei um padding inferior para espaço */
   background-color: transparent; /* Se quiser um fundo diferente, defina aqui */
 }
