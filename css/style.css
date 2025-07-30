@@ -1,8 +1,4 @@
 #video_inicial_multiponto {
-  /* max-width: 300px;
-    height: auto; */
-  /* float: left; */
-  /* position: relative; */
   opacity: 20%;
 }
 
@@ -25,7 +21,6 @@
   letter-spacing: 0.3px;
   line-height: 18px;
   color: black;
-  /* opacity: 60%; */
 }
 
 .list-group-item_home {
@@ -44,7 +39,6 @@
   opacity: 1;
 }
 
-
 .botao_orçamento {
   background-color: black;
   color: white;
@@ -53,8 +47,6 @@
   border-radius: 10px;
   width: 25%;
   height: 35px;
-  /* height: 33px;
-    width: 170px; */
 }
 
 .botao_orçamento_maior {
@@ -66,8 +58,6 @@
   border-radius: 10px;
   width: 40%;
   height: 55px;
-  /* height: 33px;
-    width: 170px; */
 }
 
 .botao_orçamento_mobile {
@@ -78,8 +68,6 @@
   border-radius: 10px;
   width: 40%;
   height: 40px;
-  /* height: 33px;
-    width: 170px; */
 }
 
 .botao_orçamento_fundo {
@@ -92,8 +80,6 @@
   border-color: black;
   width: 40%;
   height: 55px;
-  /* height: 33px;
-    width: 170px; */
 }
 
 .botao_orçamento_mobile_fundo {
@@ -104,25 +90,14 @@
   border-radius: 10px;
   width: 40%;
   height: 40px;
-  /* height: 33px;
-    width: 170px; */
 }
-
 
 .sem_link {
   text-decoration: none;
   color: black;
 }
 
-
-
-
-
-
-
-
 /* NAVBAR */
-
 nav {
   background-color: transparent;
 }
@@ -157,11 +132,7 @@ nav li a:hover {
   display: block;
 }
 
-
-
-
 /* ###################### */
-
 .container_grid_home {
   display: grid;
   width: 40%;
@@ -186,7 +157,6 @@ nav li a:hover {
     "item-7 item-8"
 }
 
-
 .item-1 {
   grid-area: item-1;
   background: black;
@@ -203,7 +173,6 @@ nav li a:hover {
   grid-area: item-3;
   background: black;
   opacity: 20%;
-
 }
 
 .item-4 {
@@ -240,7 +209,6 @@ nav li a:hover {
   grid-area: item-9;
   background: black;
   opacity: 20%;
-
 }
 
 .item-10 {
@@ -285,41 +253,32 @@ nav li a:hover {
   opacity: 20%;
 }
 
-
 /* ################## */
 .carousel slide_meu {
   animation: moveToRight 0.5s linear;
   transition: 10ms;
   transform: translateX(100px);
-  /* background: linear-gradient(120deg, black 100%, #466e83 100%); */
 }
 
 .carousel slide_meu_02 {
   animation: moveToRight 3s linear;
   transition: 30ms;
   transform: translateX(100px);
-  /* background: linear-gradient(120deg, black 100%, #466e83 100%); */
 }
 
 .carousel slide_meu_02 {
   animation: moveToRight 1.5s linear;
   transition: 20ms;
   transform: translateX(100px);
-  /* background: linear-gradient(120deg, black 100%, #466e83 100%); */
 }
 
-
-
 /* ##################### */
-
 .logos{
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
-
-  
   }
   
   .logos .logo{
@@ -327,7 +286,6 @@ nav li a:hover {
   background-size: cover !important;
   -webkit-transition: all 0.7s ease;
  transition: all 6s ease;
-
   }
   
   .logos .logo img {
@@ -335,25 +293,20 @@ nav li a:hover {
   width: 300px;
   }
 
-
 /* MOBILE */
-
 .logos_mobile{
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
-
-  
-  }
+}
   
   .logos_mobile .logo_mobile{
   height: 200px;
   background-size: cover !important;
   -webkit-transition: all 0.7s ease;
  transition: all 6s ease;
-
   }
   
   .logos_mobile .logo_mobile img {
@@ -361,27 +314,14 @@ nav li a:hover {
   width: 300px;
   }
 
-
-/*   .logos .logo_mobile img {
-    height: 200px;
-    width: 200px;
-    border-color: white;
-    } */
-
     .hr1 {
       border: 0px;
       border-top: 1px solid #A4A4A4;
-      /* background-image: linear-gradient(to right, transparent, #CCC, transparent) */
-      /* background: black; */
-      /* background: webkit-gradient(linear, 0 0, 100% 0, from(white), to(white), color-stop(50%, black)); */
-      /* background-image: linear-gradient(red, yellow); */
     }
     
-
     .meia_linha {
       line-height: 5px;
     }
-
 
     .contorno_produtos {
       border: 2px groove rgb(246, 246, 246);
@@ -391,7 +331,6 @@ nav li a:hover {
       border-radius: 2px;
       width: 60%;
       background-color: rgb(250, 250, 250);
-      /* border-bottom: 3px dotted red; */
     }
 
     .contorno_produtos_cima_baixo {
@@ -401,7 +340,6 @@ nav li a:hover {
       border-radius: 2px;
       width: 60%;
       background-color: rgb(250, 250, 250);
-      /* border-bottom: 3px dotted red; */
     }
 
     .contorno_produtos_v2 {
@@ -411,15 +349,9 @@ nav li a:hover {
       border-top: 0px;
       border-radius: 2px;
       width: 60%;
-      /* background-color: rgb(250, 250, 250); */
-      /* border-bottom: 3px dotted red; */
     }
 
-
-
 /* ________________ */
-
-
 details {
   height: auto;
   overflow: hidden;
@@ -431,168 +363,7 @@ summary {
   cursor: pointer;
 }
 
-/* PARA O TESTE DO RODAPÉ */
-/* Estilização do conteúdo */
-/* .content {
-  padding: 20px;
-} */
-
-/* Estilização do footer */
-/* .footer {
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  background-color: #333;
-  color:red;
-  text-align: center;
-  padding: 15px 0;
-  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
-} */
-
-/* Estilização do conteúdo do footer */
-/* .footer-content {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 20px;
-} */
-
-/* Estilização da navegação do footer */
-/* .footer-nav {
-  margin-top: 10px;
-} */
-
-/* .footer-nav a {
-  color: black;
-  text-decoration: none;
-  margin: 0 10px;
-} */
-
-/* .footer-nav a:hover {
-  text-decoration: underline;
-} */
-
-
-/* .container_portfolio {
-  width: 60%;
-  margin: 2rem auto; 
-}
-
-.gallery {
-  display: grid;
-  grid-template-columns: repeat(8, 1fr);
-  grid-template-rows: repeat(8, 5vw);
-  grid-gap: 1.5rem; 
-}
-
-.gallery__img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  display: block; 
-}
-
-.gallery__item--1 {
-  grid-column-start: 1;
-  grid-column-end: 3;
-  grid-row-start: 1;
-  grid-row-end: 3;
-}
-
-.gallery__item--2 {
-  grid-column-start: 3;
-  grid-column-end: 5;
-  grid-row-start: 1;
-  grid-row-end: 3;
-}
-
-.gallery__item--3 {
-  grid-column-start: 5;
-  grid-column-end: 9;
-  grid-row-start: 1;
-  grid-row-end: 6;
-}
-
-.gallery__item--4 {
-  grid-column-start: 1;
-  grid-column-end: 5;
-  grid-row-start: 3;
-  grid-row-end: 6;
-}
-
-.gallery__item--5 {
-  grid-column-start: 1;
-  grid-column-end: 5;
-  grid-row-start: 6;
-  grid-row-end: 9;
-}
-
-.gallery__item--6 {
-  grid-column-start: 5;
-  grid-column-end: 9;
-  grid-row-start: 6;
-  grid-row-end: 9;
-} */
-
-
 /* ______________ */
-/* .crossfade>figure {
-  animation: imageAnimation 12s linear infinite 0s;
-  backface-visibility: hidden;
-  background-size: cover;
-  background-position: center center;
-  color: transparent;
-  height: 100%;
-  left: 0px;
-  opacity: 0;
-  position:relative;
-  top: 0px;
-  width: 100%;
-  z-index: 0;
-}
-
-.crossfade {
-  height: 600px;
-  width: 100%;
-}
-
-.crossfade>figure:nth-child(1) {
-  background-image: url('/Users/Mac7/Documents/GitHub/Multiponto.github.io/wp-content/Portfolio/Mosaico_01.png');
-}
-
-.crossfade>figure:nth-child(2) {
-  animation-delay: 4s;
-  background-image: url('/Users/Mac7/Documents/GitHub/Multiponto.github.io/wp-content/Produtos/Embalagens_04.png');
-}
-
-.crossfade>figure:nth-child(3) {
-  animation-delay: 8s;
-  background-image: url('/Users/Mac7/Documents/GitHub/Multiponto.github.io/wp-content/Produtos/Embalagens_03.png');
-}
-
-@keyframes imageAnimation {
-  0% {
-    animation-timing-function: ease-in;
-    opacity: 0;
-  }
-  8% {
-    animation-timing-function: ease-out;
-    opacity: 1;
-  }
-  17% {
-    opacity: 1
-  }
-  25% {
-    opacity: 0
-  }
-  100% {
-    opacity: 0
-  }
-} */
-/* ______________ */
-
-
-
 .wraper {
   height: auto;
   width: 100%;
@@ -609,10 +380,7 @@ summary {
   min-width: calc(100% / 3);
   flex: 1;
   padding: 2rem;
-  /* width: 300px;
-  height: 250px; */
   border-radius: 40px;
-  
 }
 @keyframes slidy1 {
  0%{margin-left:0%;}
@@ -681,10 +449,8 @@ summary {
 95%{margin-left:-100%;}
 97%{margin-left:-100%;}
 
-
 100%{margin-left:0%;}
 }
-
 
 /* 2 IMAGEM MAIS LENTO IMAGEM */
 .wraper_2_img {
@@ -703,9 +469,6 @@ summary {
   min-width: calc(100% / 1);
   flex: 1;
   padding: 0rem;
-  /* width: 120px;
-  height: 350px; */
-  /* border-radius: 40px; */
 }
 
 @keyframes slidy {
@@ -740,17 +503,12 @@ summary {
 95%{margin-left:-100%;}
 97%{margin-left:-100%;}
 
-
 100%{margin-left:0%;}
 }
-
-
 
 /* 
 SITE RESPONSIVO
 _____________________- */
-
-
 .titulo-rigor {
   text-transform: uppercase;
   font-size:40px; /* mobile padrão */
@@ -772,7 +530,6 @@ _____________________- */
   }
 }
 
-
 .titulo-desde {
   text-transform: uppercase;
   font-size:20px; /* mobile padrão */
@@ -792,8 +549,6 @@ _____________________- */
   }
 }
 
-
-
 @media (max-width: 768px) {
   .logo-mobile {
     max-height: 40px;
@@ -811,8 +566,6 @@ _____________________- */
     font-size: 18px !important;
   }
 }
-
-
 
 /* PRODUTOS EFEITOS */
 /* Estilos para o card principal */
@@ -860,22 +613,6 @@ _____________________- */
   /* Pode ajustar para 1.1 ou 1.2 para um efeito mais dramático */
 }
 
-/* TIRAR AS SETAS DE NAVEGAÇÃO */
-/* Estilos para as setas de navegação */
-/* .slick-prev:before,
-.slick-next:before {
-  color:#A4A4A4 !important;
-  font-size: 24px !important;
-} */
-
-/* .slick-prev {
-  left: -150px; 
-}
-
-.slick-next {
-  right: -150px; 
-} */
-
 /* Ajustes responsivos para o slider */
 @media (max-width: 768px) {
   .product-card {
@@ -886,9 +623,6 @@ _____________________- */
     height: 180px; /* Ajusta a altura da imagem para dispositivos móveis */
   }
 }
-
-
-
 
 /* SOBRE NOS (Responsivo) */
 /* --- ESTILOS PARA ECRÃS PEQUENOS (Mobile, Tablet Retrato) --- */
@@ -942,7 +676,6 @@ _____________________- */
   margin-bottom: 0px;
 }
 
-
 .organization-image-wrapper-sm {
   /* O padding já é controlado pelas classes pt-4 pb-4 no HTML */
 }
@@ -952,7 +685,6 @@ _____________________- */
   width: 100%; /* A imagem ocupa 100% da largura do seu contêiner de coluna */
   height: auto; /* Mantém a proporção da imagem */
 }
-
 
 .policy-content-sm {
   /* O padding já é controlado pelas classes pt-4 pb-4 no HTML */
@@ -977,12 +709,8 @@ _____________________- */
   text-align: left; /* Pode ser justificado ou à esquerda */
 }
 
-
-
-
 /* PAGINA SERVIÇOS ECRAS PEQUENOS */
 /* --- ESTILOS PARA ECRÃS PEQUENOS (Mobile, Tablet Retrato) --- */
-
 /* Estilos para a secção principal */
 .pre-impressao-section-sm {
   background-color: rgb(250, 250, 250); /* Fundo cinza claro */
@@ -1060,13 +788,10 @@ _____________________- */
   filter: invert(1);
 }
 
-
-
 /* Estilos para o bloco de texto */
 .pre-impressao-text-sm {
   padding-bottom: 0px; /* Padding no fundo do bloco de texto */
   margin-top: 60px; /* Margem no topo do bloco de texto */
- 
 }
 
 .pre-impressao-text-sm p {
@@ -1080,13 +805,9 @@ _____________________- */
   font-weight: bold;
 }
 
-
-
 /* PÁGINA PRODUTOS PARA MOBILE */
 /* ######################## */
-/* ######################## */
 /* --- ESTILOS GERAIS PARA AS SECÇÕES DE PRODUTOS (Mobile, Tablet Retrato) --- */
-
 .produtos-section-sm {
   background-color: rgb(250, 250, 250); /* Fundo cinza claro */
   padding-top: 0px; /* Espaçamento superior para cada seção */
@@ -1130,10 +851,8 @@ _____________________- */
   margin: 0 auto; /* Centraliza a imagem */
 }
 
-
 /* --- ESTILOS PARA AS SETAS DOS CARROSSÉIS (Versão Corrigida) --- */
 /* --- Ajustes para os Controles do Carrossel (Botões e Setas) --- */
-/* Ajusta o posicionamento dos botões de controle (setas) */
 .carousel-control-prev,
 .carousel-control-next {
   width: 15%; /* Reduz a largura da área clicável para que as setas fiquem mais próximas do centro */
@@ -1154,7 +873,6 @@ _____________________- */
 }
 
 /* Força a cor preta nas setas usando SVG embutido nos pseudo-elementos */
-/* Adicionado um z-index para garantir que estão por cima de outros elementos */
 .carousel-control-prev-icon::before {
   content: "";
   display: inline-block;
@@ -1187,13 +905,9 @@ _____________________- */
     opacity: 0.7; /* Torna as setas ligeiramente transparentes ao passar o mouse */
 }
 
-
-
 /* PARA A PÁGINA CONTACTOS MOBILE */
 /* --- ESTILOS PARA INFORMAÇÕES DE CONTACTO (Mobile, Tablet Retrato) --- */
 .contacto-info-sm {
-  /* No HTML original não tinha background-color para esta secção, mas pode adicionar se precisar */
-  /* background-color: rgb(250, 250, 250); */
   padding-top: 0px; /* Margem no topo, ajustada como padding para o bloco */
   padding-bottom: 20px; /* Adicionei um padding inferior para espaço */
 }
@@ -1239,7 +953,6 @@ _____________________- */
   line-height: 1;
 }
 
-
 /* PAGINA CONTACTOS PARA VERSAO MOBILE */
 /* ######################## */
 /* --- ESTILOS PARA O MAPA (Mobile, Tablet Retrato) --- */
@@ -1265,7 +978,6 @@ _____________________- */
   position: absolute;
   border: 0; /* Removendo a borda padrão do iframe */
 }
-
 
 /* OUTROS CONTACTOS */
 /* --- ESTILOS PARA SECÇÕES DE DEPARTAMENTOS (Mobile, Tablet Retrato) --- */
@@ -1294,13 +1006,9 @@ _____________________- */
   margin-bottom: 10; /* Remove a margem inferior padrão dos parágrafos para linhas mais próximas */
 }
 
-
-
-
 /* PAGINA POLITICA DE PRIVACIDADE
 ################## */
 /* --- ESTILOS PARA POLÍTICA DE PRIVACIDADE (Mobile, Tablet Retrato) --- */
-
 .politica-privacidade-sm,
 .politica-cookies-sm,
 .condicoes-venda-sm
@@ -1389,5 +1097,75 @@ _____________________- */
   text-align: justify;
   line-height: 28px;
   margin-bottom: 1rem; /* Espaçamento entre cada item da condição */
-  
 }
+
+/* PORFOLIO */
+/* DESKTOP */
+ /* Contenção principal do carrossel */
+/* Contenção principal que agrupa o título e o carrossel */
+.portfolio-section-wrapper {
+  width: 60vw; /* Defina a largura para alinhar com a largura do carrossel */
+  margin: 20px auto; /* Centraliza a secção inteira na página */
+  text-align: center; /* Centraliza o texto (título) */
+}
+
+/* Removido o margin auto e width fixo do custom-carousel-container,
+   pois agora o wrapper cuida disso. */
+.custom-carousel-container {
+  position: relative;
+  /* width: 100%; <- Agora ocupa 100% da largura do seu novo contentor pai */
+  /* margin: 0;   <- Não precisa mais de margin auto aqui */
+  overflow: hidden;
+  border: 0px solid #ccc; /* Apenas para visualização, pode remover */
+}
+
+/* Div que contém todos os slides */
+.custom-carousel-track {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+/* Cada slide individual */
+.custom-carousel-slide {
+  min-width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.custom-carousel-slide img {
+  max-width: 100%;
+  max-height: 90vh;
+  height: auto;
+  display: block;
+  object-fit: contain;
+}
+
+/* Controles de navegação (setas) */
+.custom-carousel-control {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  color: #333;
+  font-size: 2.5em;
+  cursor: pointer;
+  padding: 10px;
+  z-index: 10;
+  user-select: none;
+}
+
+.custom-carousel-control:hover {
+  color: #007bff;
+}
+
+.custom-carousel-control.prev {
+  left: 10px;
+}
+
+.custom-carousel-control.next {
+  right: 10px;
+}
+  

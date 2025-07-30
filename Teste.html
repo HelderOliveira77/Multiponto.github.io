@@ -1,22 +1,73 @@
 <!DOCTYPE html>
-<html lang="pt">
+<html lang="en">
+
 <head>
   <meta charset="UTF-8">
-  <title>Formulário de Contato</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>HOME</title>
+
+  <link rel="stylesheet" href="css/style.css">
+
+   <!-- <link rel=”stylesheet” type="text/css"
+    href=”https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css”rel=”nofollow”
+    integrity=”sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I” crossorigin=”anonymous”>
+
+  <link rel="stylesheet" type="text/css"
+    href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">  -->
+
+<!-- CSS do Bootstrap -->
+<!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"> -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+
+
+<!-- JS do Bootstrap (no fim do <body>) -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+
 </head>
+
+
 <body>
-  <h2>Formulário de Contato</h2>
-  <form action="processa_formulario.php" method="POST">
-    <label for="nome">Nome:</label><br>
-    <input type="text" id="nome" name="nome" required><br><br>
 
-    <label for="email">Email:</label><br>
-    <input type="email" id="email" name="email" required><br><br>
+  
 
-    <label for="telefone">Telefone:</label><br>
-    <input type="text" id="telefone" name="telefone" required><br><br>
+  <div class="d-none d-lg-block">
+    <div class="carousel-forcado">
+      <div id="carouselExemplo" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="wp-content/Portfolio/Mosaico_01.png" alt="Imagem 1">
+          </div>
+          <div class="carousel-item">
+            <img src="wp-content/Portfolio/Mosaico_02.png" alt="Imagem 2">
+          </div>
+          <div class="carousel-item">
+            <img src="wp-content/Portfolio/Mosaico_03.png" alt="Imagem 3">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 
-    <input type="submit" value="Enviar">
-  </form>
+
+
+
+
+
+
+   <!-- CODIGO NECESSARIO PARA CORRER O JAVASCRIPT -->
+  <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script> -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhyUVqC/uFqY6bFLA5a5Gg" crossorigin="anonymous"></script>
+
+  <script src="js/scripts.js"> </script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script> 
+
 </body>
 </html>
