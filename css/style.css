@@ -1099,73 +1099,75 @@ _____________________- */
   margin-bottom: 1rem; /* Espaçamento entre cada item da condição */
 }
 
+
 /* PORFOLIO */
 /* DESKTOP */
- /* Contenção principal do carrossel */
-/* Contenção principal que agrupa o título e o carrossel */
-.portfolio-section-wrapper {
-  width: 60vw; /* Defina a largura para alinhar com a largura do carrossel */
-  margin: 20px auto; /* Centraliza a secção inteira na página */
-  text-align: center; /* Centraliza o texto (título) */
-}
+   /* Contenção principal que agrupa o título e o carrossel */
+   .portfolio-section-wrapper {
+    width: 60vw; /* Exemplo: mantido de 80vw, ajuste se necessário */
+    margin: 20px auto;
+    text-align: center;
+  }
 
-/* Removido o margin auto e width fixo do custom-carousel-container,
-   pois agora o wrapper cuida disso. */
-.custom-carousel-container {
-  position: relative;
-  /* width: 100%; <- Agora ocupa 100% da largura do seu novo contentor pai */
-  /* margin: 0;   <- Não precisa mais de margin auto aqui */
-  overflow: hidden;
-  border: 0px solid #ccc; /* Apenas para visualização, pode remover */
-}
+  /* Contenção principal do carrossel */
+  .custom-carousel-container {
+    position: relative;
+    overflow: hidden;
+  }
 
-/* Div que contém todos os slides */
-.custom-carousel-track {
-  display: flex;
-  transition: transform 0.5s ease-in-out;
-}
+  /* Div que contém todos os slides */
+  .custom-carousel-track {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+  }
 
-/* Cada slide individual */
-.custom-carousel-slide {
-  min-width: 100%;
-  box-sizing: border-box;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
+  /* Cada slide individual */
+  .custom-carousel-slide {
+    min-width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 
-.custom-carousel-slide img {
-  max-width: 100%;
-  max-height: 90vh;
-  height: auto;
-  display: block;
-  object-fit: contain;
-}
+  .custom-carousel-slide img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    object-fit: contain;
+  }
 
-/* Controles de navegação (setas) */
-.custom-carousel-control {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  background: none;
-  border: none;
-  color: #333;
-  font-size: 2.5em;
-  cursor: pointer;
-  padding: 10px;
-  z-index: 10;
-  user-select: none;
-}
+  /* Controles de navegação (setas) */
+  .custom-carousel-control {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    color: #333; /* Cor das setas */
+    opacity: 10%;
+    font-size: 3em; /* Tamanho das setas */
+    cursor: pointer;
+    padding: 0; /* Removido o padding para 'colar' a seta à borda do seu box model */
+    width: 40px; /* Largura fixa para o botão da seta */
+    height: 40px; /* Altura fixa para o botão da seta */
+    display: flex; /* Para centralizar o ícone dentro da área do botão */
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+    user-select: none;
+  }
 
-.custom-carousel-control:hover {
-  color: #007bff;
-}
+  .custom-carousel-control:hover {
+    color: #007bff;
+  }
 
-.custom-carousel-control.prev {
-  left: 10px;
-}
+  .custom-carousel-control.prev {
+    left: 0; /* Alinha a borda esquerda do botão com a borda esquerda do carrossel */
+    /* Se quiser que a seta 'entre' na imagem, pode usar left: -20px; por exemplo */
+  }
 
-.custom-carousel-control.next {
-  right: 10px;
-}
-  
+  .custom-carousel-control.next {
+    right: 0; /* Alinha a borda direita do botão com a borda direita do carrossel */
+    /* Se quiser que a seta 'entre' na imagem, pode usar right: -20px; por exemplo */
+  }
