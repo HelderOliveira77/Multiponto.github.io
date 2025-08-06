@@ -1171,3 +1171,15 @@ _____________________- */
     right: 0; /* Alinha a borda direita do botão com a borda direita do carrossel */
     /* Se quiser que a seta 'entre' na imagem, pode usar right: -20px; por exemplo */
   }
+
+  .uniform-image {
+    width: 250px;
+    height: 250px;
+    object-fit: cover; /* Garante que a imagem cubra a área sem distorção */
+  }
+
+  hr.spacer {
+    border: none; /* Remove a linha */
+    height: 40px; /* Aumenta a altura para criar um espaço maior */
+    background-color: transparent; /* Garante que não haja cor de fundo */
+  }
