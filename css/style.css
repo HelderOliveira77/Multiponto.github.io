@@ -1183,3 +1183,14 @@ _____________________- */
     height: 40px; /* Aumenta a altura para criar um espaço maior */
     background-color: transparent; /* Garante que não haja cor de fundo */
   }
+
+  input, textarea {
+    border-radius: 8px;
+    border: 1px solid #ccc;
+  }
+  
+  button.btn-dark {
+    background-color: #000;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+  }
