@@ -13,26 +13,17 @@
  
   <!-- FORMULARIO TESTE 1 -->
   <form action="https://formsubmit.co/helder.oliveira@multiponto.com" method="POST">
-    <div class="mb-3">
-      <label for="nome" class="form-label">Nome</label>
-      <input type="text" class="form-control" id="nome" name="name" required>
-    </div>
+    <input type="text" name="name" placeholder="Nome" required>
+    <input type="email" name="email" placeholder="Email" required>
+    <textarea name="message" placeholder="Escreva a sua mensagem" required></textarea>
   
-    <div class="mb-3">
-      <label for="email" class="form-label">Email *</label>
-      <input type="email" class="form-control" id="email" name="email" required>
-    </div>
+    <!-- Redireciona após envio -->
+    <input type="hidden" name="_next" value="https://multiponto.github.io/obrigado.html">
   
-    <div class="mb-3">
-      <label for="mensagem" class="form-label">Mensagem *</label>
-      <textarea class="form-control" id="mensagem" name="message" rows="5" required></textarea>
-    </div>
-  
-    <!-- Campo oculto de redirecionamento após envio -->
-    <input type="hidden" name="_next" value="https://helderoliveira77.github.io/obrigado.html">
+    <!-- Desativa CAPTCHA -->
     <input type="hidden" name="_captcha" value="false">
   
-    <button type="submit" class="btn btn-dark w-100">Enviar</button>
+    <button type="submit">Enviar</button>
   </form>
   
 
