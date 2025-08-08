@@ -12,42 +12,29 @@
  
  
   <!-- FORMULARIO TESTE 1 -->
-  <div class="container d-none d-lg-block" style="max-width: 600px; margin-top: 40px; padding-bottom: 50px;">
-    <div class="row" style="padding-top: 30px; padding-bottom: 40px; padding-left: 0px; ">
-      <div class="col" style="display: flex; justify-content: center;">
-        <p
-          style="font-size: 22px; color: black; font-weight: normal; font-family: 'Arial Narrow', Arial, sans-serif; letter-spacing: 1px; height: 15px; text-align: center; opacity: 80%; ">
-          FALE CONNOSCO <br> <br>
-        </p>
-      </div>
+  <form action="https://formsubmit.co/helder.oliveira@multiponto.com" method="POST">
+    <div class="mb-3">
+      <label for="nome" class="form-label">Nome</label>
+      <input type="text" class="form-control" id="nome" name="name" required>
     </div>
-    <form action="https://formsubmit.co/helder.oliveira@multiponto.com" method="POST">
-      <div class="mb-3">
-        <label for="nome" class="form-label" style="font-weight: 600;">Nome</label>
-        <input type="text" class="form-control" id="nome" name="name">
-      </div>
   
-      <div class="mb-3">
-        <label for="email" class="form-label" style="font-weight: 600;"> Email *</label>
-        <input type="email" class="form-control" id="email" name="email" required>
-      </div>
+    <div class="mb-3">
+      <label for="email" class="form-label">Email *</label>
+      <input type="email" class="form-control" id="email" name="email" required>
+    </div>
   
-      <div class="mb-3">
-        <label for="mensagem" class="form-label" style="font-weight: 600;"> Mensagem *</label>
-        <textarea class="form-control" id="mensagem" name="message" rows="5" required></textarea>
-      </div>
+    <div class="mb-3">
+      <label for="mensagem" class="form-label">Mensagem *</label>
+      <textarea class="form-control" id="mensagem" name="message" rows="5" required></textarea>
+    </div>
   
-
-      <input type="hidden" name="_next" value="index.html">
-      <input type="hidden" name="_captcha" value="false">
-      <!-- <input type="hidden" name="_next" value="https://helderoliveira77.github.io/index.html"> -->
-      <input type="hidden" name="_next" value="https://Multiponto.github.io/Formulario_Orcamento.html">
-
-
+    <!-- Campo oculto de redirecionamento após envio -->
+    <input type="hidden" name="_next" value="https://helderoliveira77.github.io/obrigado.html">
+    <input type="hidden" name="_captcha" value="false">
   
-      <button type="submit" class="btn btn-dark w-100">Enviar</button>
-    </form>
-  </div>
+    <button type="submit" class="btn btn-dark w-100">Enviar</button>
+  </form>
+  
 
 </body>
 </html>
