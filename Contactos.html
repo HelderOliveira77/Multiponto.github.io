@@ -1091,26 +1091,26 @@ Departamento Qualidade, Ambiente e Higiene e Segurança
   </form>
 
 
-
   <!-- Versão FormSubmit -->
-    <form action="https://formsubmit.co/helder.oliveira@multiponto.com" method="POST">
-        <!-- Configuração do FormSubmit -->
-        <input type="hidden" name="_captcha" value="false">
-        <input type="hidden" name="_next" value="https://helderoliveira77.github.io/Multiponto.github.io/obrigado.html">
+  <form action="https://formsubmit.co/helder.oliveira@multiponto.com" method="POST">
+    <!-- Desativar captcha -->
+    <input type="hidden" name="_captcha" value="false">
+    
+    <!-- Redirecionar para a página certo -->
+    <input type="hidden" name="_next" value="https://helderoliveira77.github.io/Multiponto.github.io/obrigado.html">
 
-        <h2>Contacte-nos</h2>
+    <label>Nome:</label>
+    <input type="text" name="nome" required>
 
-        <label for="nome">Nome:</label>
-        <input type="text" id="nome" name="nome" required>
+    <label>Email:</label>
+    <input type="email" name="email" required>
 
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="email" required>
+    <label>Mensagem:</label>
+    <textarea name="mensagem" rows="5" required></textarea>
 
-        <label for="mensagem">Mensagem:</label>
-        <textarea id="mensagem" name="mensagem" rows="5" required></textarea>
+    <button type="submit">Enviar</button>
+</form>
 
-        <button type="submit">Enviar</button>
-    </form>
 
 
 
