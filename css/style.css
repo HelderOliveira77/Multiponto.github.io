@@ -622,7 +622,73 @@ _____________________- */
   .slider-imagens img {
     height: 180px; /* Ajusta a altura da imagem para dispositivos móveis */
   }
+  .slider-imagens .slick-prev {
+    left: 0px; /* Move para a borda no celular */
+  }
+  .slider-imagens .slick-next {
+    right: 0px; /* Move para a borda no celular */
+  }
+  /* Opcional: Diminuir o tamanho das setas no celular */
+  .slider-imagens .slick-prev::before,
+  .slider-imagens .slick-next::before {
+    font-size: 20px;
+  }
 }
+
+/* Estilo geral das setas */
+.slider-imagens .slick-prev,
+.slider-imagens .slick-next {
+  font-size: 0; /* Oculta o texto padrão */
+  line-height: 0;
+  position: absolute;
+  top: 50%; /* Centraliza verticalmente */
+  transform: translate(0, -50%);
+  display: block;
+  width: 40px; /* Largura do botão */
+  height: 40px; /* Altura do botão */
+  padding: 0;
+  cursor: pointer;
+  color: transparent;
+  border: none;
+  outline: none;
+  background: transparent;
+  z-index: 10; /* Garante que as setas estejam acima das imagens */
+}
+
+/* Seta Anterior (<-) */
+.slider-imagens .slick-prev {
+  left: -50px; /* Distância da borda esquerda (ajuste conforme necessário) */
+}
+
+/* Seta Próxima (->) */
+.slider-imagens .slick-next {
+  right: -50px; /* Distância da borda direita (ajuste conforme necessário) */
+}
+
+/* Adicionando ícones (usando conteúdo CSS, você pode usar Font Awesome ou ícones de imagem) */
+.slider-imagens .slick-prev::before,
+.slider-imagens .slick-next::before {
+  font-family: "Font Awesome 5 Free"; /* Se estiver usando Font Awesome */
+  font-weight: 900;
+  font-size: 30px;
+  line-height: 1;
+  opacity: 0.75;
+  color: #333; /* Cor dos ícones */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.slider-imagens .slick-prev::before {
+  content: " \2039 "; /* Caractere de seta para a esquerda (<) */
+}
+
+.slider-imagens .slick-next::before {
+  content: " \203A "; /* Caractere de seta para a direita (>) */
+}
+
+
+
+
 
 /* SOBRE NOS (Responsivo) */
 /* --- ESTILOS PARA ECRÃS PEQUENOS (Mobile, Tablet Retrato) --- */
