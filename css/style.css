@@ -597,7 +597,7 @@ _____________________- */
 
 /* Este CSS garante que as setas (que são position: absolute) 
    fiquem posicionadas em relação ao seu contêiner pai mais próximo. */
-   .slider-imagens {
+.slider-imagens {
     /* Esta linha é a mais crítica para o posicionamento correto */
     position: relative; 
 }
@@ -630,7 +630,7 @@ _____________________- */
   .slider-imagens img {
     height: 180px; /* Ajusta a altura da imagem para dispositivos móveis */
   }
-  .slider-imagens .slick-prev {
+ .slider-imagens .slick-prev {
     left: 0px; /* Move para a borda no celular */
   }
   .slider-imagens .slick-next {
@@ -642,6 +642,7 @@ _____________________- */
     font-size: 20px;
   }
 }
+
 
 /* Estilo geral das setas */
 .slider-imagens .slick-prev,
@@ -666,36 +667,33 @@ _____________________- */
 /* Seta Anterior (<-) */
 .slider-imagens .slick-prev {
   left: -50px; /* Distância da borda esquerda (ajuste conforme necessário) */
+  z-index: 999; /* Força a seta a ficar em cima de todos os outros elementos */
 }
 
 /* Seta Próxima (->) */
 .slider-imagens .slick-next {
   right: -50px; /* Distância da borda direita (ajuste conforme necessário) */
+  z-index: 999; /* Força a seta a ficar em cima de todos os outros elementos */
 }
 
 /* Adicionando ícones (usando conteúdo CSS, você pode usar Font Awesome ou ícones de imagem) */
 .slider-imagens .slick-prev::before,
 .slider-imagens .slick-next::before {
-  font-family: "Font Awesome 5 Free"; /* Se estiver usando Font Awesome */
-  font-weight: 600;
-  font-size: 20px;
+  font-family: Arial, sans-serif; /* Usar uma fonte padrão */
+  font-weight: 900; /* Negrito para o caractere */
+  font-size: 25px; /* Aumentar o tamanho para serem vistos */
   line-height: 1;
-  opacity: 0.5;
-  color:red; /* Cor dos ícones */
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  opacity: 0.5; 
+  color: black; /* Cor dos ícones */
 }
 
 .slider-imagens .slick-prev::before {
-  content: " \2039 "; /* Caractere de seta para a esquerda (<) */
+  content: " \2039 "; /* Seta Unicode Simples */
 }
 
 .slider-imagens .slick-next::before {
-  content: " \203A "; /* Caractere de seta para a direita (>) */
+  content: " \203A "; /* Seta Unicode Simples */
 }
-
-
-
 
 
 /* SOBRE NOS (Responsivo) */
