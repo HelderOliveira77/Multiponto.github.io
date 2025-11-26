@@ -669,10 +669,10 @@ _____________________- */
 .slider-imagens .slick-prev::before,
 .slider-imagens .slick-next::before {
   font-family: "Font Awesome 5 Free"; /* Se estiver usando Font Awesome */
-  font-weight: 900;
-  font-size: 30px;
+  font-weight: 800;
+  font-size: 25px;
   line-height: 1;
-  opacity: 0.75;
+  opacity: 0.25;
   color: #333; /* Cor dos ícones */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
