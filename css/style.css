@@ -673,7 +673,7 @@ _____________________- */
   font-size: 20px;
   line-height: 1;
   opacity: 0.5;
-  color: #696868; /* Cor dos ícones */
+  color:red; /* Cor dos ícones */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
