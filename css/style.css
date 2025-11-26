@@ -594,6 +594,14 @@ _____________________- */
 }
 
 /* Estilos para as imagens dentro do slider */
+
+/* Este CSS garante que as setas (que são position: absolute) 
+   fiquem posicionadas em relação ao seu contêiner pai mais próximo. */
+   .slider-imagens {
+    /* Esta linha é a mais crítica para o posicionamento correto */
+    position: relative; 
+}
+
 .slider-imagens img {
   width: 100%;
   height: auto; /* Altura fixa para as imagens, ajuste conforme necessário */
